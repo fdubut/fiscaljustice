@@ -1,9 +1,10 @@
 import { useState } from "react";
 import {
   WA_CURRENT_RATES,
-  WA_TAX_BASES,
   WA_CURRENT_REVENUE,
   WA_PROGRAM_COSTS,
+  DATA_SOURCES,
+  estimateIncomeAboveThreshold,
 } from "../data/constants";
 
 function formatBillions(value: number): string {
@@ -11,6 +12,19 @@ function formatBillions(value: number): string {
     return `$${value.toFixed(1)}B`;
   }
   return `$${(value * 1_000).toFixed(0)}M`;
+}
+
+function SourceLink({ source }: { source: { label: string; url: string } }) {
+  return (
+    <a
+      href={source.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 hover:text-blue-800 hover:underline"
+    >
+      {source.label} ↗
+    </a>
+  );
 }
 
 export default function Simulator() {
@@ -21,18 +35,18 @@ export default function Simulator() {
     WA_CURRENT_RATES.propertyTaxRate
   );
 
-  // Placeholder revenue calculations
-  const incomeAboveThreshold =
-    WA_TAX_BASES.totalPersonalIncomeBillions *
-    Math.max(0, 1 - incomeTaxThreshold / 200_000);
-  const incomeTaxRevenue = (incomeTaxRate / 100) * incomeAboveThreshold;
+  // Income tax: use ITEP-derived income distribution to estimate taxable income above threshold
+  const incomeTaxRevenue =
+    (incomeTaxRate / 100) * estimateIncomeAboveThreshold(incomeTaxThreshold);
 
+  // Sales & property tax: scale proportionally from actual FY2024 revenue
   const salesTaxRevenue =
-    (salesTaxRate / 100) * WA_TAX_BASES.totalTaxableSalesBillions;
+    WA_CURRENT_REVENUE.salesTaxRevenueBillions *
+    (salesTaxRate / WA_CURRENT_RATES.salesTaxRate);
 
   const propertyTaxRevenue =
-    (propertyTaxRate / 1_000) *
-    WA_TAX_BASES.totalAssessedPropertyValueBillions;
+    WA_CURRENT_REVENUE.propertyTaxRevenueBillions *
+    (propertyTaxRate / WA_CURRENT_RATES.propertyTaxRate);
 
   const totalRevenue = incomeTaxRevenue + salesTaxRevenue + propertyTaxRevenue;
 
@@ -65,7 +79,8 @@ export default function Simulator() {
               Income Tax
             </h2>
             <p className="text-xs text-slate-500 mb-3">
-              WA currently has no state income tax.
+              WA currently has no state income tax. Source:{" "}
+              <SourceLink source={DATA_SOURCES.incomeDist} />
             </p>
             <label className="block mb-3">
               <span className="text-sm font-medium text-slate-700">
@@ -106,7 +121,9 @@ export default function Simulator() {
               Sales Tax
             </h2>
             <p className="text-xs text-slate-500 mb-3">
-              Current state rate: {WA_CURRENT_RATES.salesTaxRate}%
+              Current state rate: {WA_CURRENT_RATES.salesTaxRate}% (FY2024
+              revenue: {formatBillions(WA_CURRENT_REVENUE.salesTaxRevenueBillions)}).
+              Source: <SourceLink source={DATA_SOURCES.salesTax} />
             </p>
             <label className="block">
               <span className="text-sm font-medium text-slate-700">
@@ -130,8 +147,10 @@ export default function Simulator() {
               Property Tax
             </h2>
             <p className="text-xs text-slate-500 mb-3">
-              Current rate: ${WA_CURRENT_RATES.propertyTaxRate.toFixed(2)} per
-              $1,000 assessed value
+              Current state levy: ${WA_CURRENT_RATES.propertyTaxRate.toFixed(2)} per
+              $1,000 assessed value (FY2024 revenue:{" "}
+              {formatBillions(WA_CURRENT_REVENUE.propertyTaxRevenueBillions)}).
+              Source: <SourceLink source={DATA_SOURCES.propertyTax} />
             </p>
             <label className="block">
               <span className="text-sm font-medium text-slate-700">
@@ -222,6 +241,7 @@ export default function Simulator() {
                 </div>
                 <p className="text-xs text-slate-500 mt-1">
                   Est. cost: {formatBillions(WA_PROGRAM_COSTS.universalHealthcareBillions)} / year
+                  — <SourceLink source={DATA_SOURCES.healthcare} />
                 </p>
               </div>
               <div>
@@ -244,6 +264,7 @@ export default function Simulator() {
                 </div>
                 <p className="text-xs text-slate-500 mt-1">
                   Est. cost: {formatBillions(WA_PROGRAM_COSTS.universalChildcareBillions)} / year
+                  — <SourceLink source={DATA_SOURCES.childcare} />
                 </p>
               </div>
             </div>

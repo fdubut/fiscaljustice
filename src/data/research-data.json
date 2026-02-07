@@ -1,0 +1,1464 @@
+{
+  "metadata": {
+    "description": "Research data for fiscaljustice.com - All data points with source references",
+    "retrieved_date": "2026-02-07",
+    "total_data_points": 125,
+    "categories": [
+      {
+        "code": "1A",
+        "count": 9
+      },
+      {
+        "code": "1B",
+        "count": 10
+      },
+      {
+        "code": "4A",
+        "count": 9
+      },
+      {
+        "code": "1C",
+        "count": 10
+      },
+      {
+        "code": "1D",
+        "count": 9
+      },
+      {
+        "code": "1E",
+        "count": 10
+      },
+      {
+        "code": "2A",
+        "count": 5
+      },
+      {
+        "code": "2B",
+        "count": 10
+      },
+      {
+        "code": "2C",
+        "count": 8
+      },
+      {
+        "code": "3A",
+        "count": 13
+      },
+      {
+        "code": "3B",
+        "count": 14
+      },
+      {
+        "code": "4B",
+        "count": 10
+      },
+      {
+        "code": "2D",
+        "count": 8
+      }
+    ]
+  },
+  "data": {
+    "1A": [
+      {
+        "id": "1a-01",
+        "category": "1A",
+        "data_point": "WA state sales tax rate",
+        "value": "6.5%",
+        "year": "2025",
+        "source_name": "WA Dept of Revenue",
+        "source_url": "https://dor.wa.gov/taxes-rates/sales-use-tax-rates",
+        "retrieved_date": "2026-02-07",
+        "notes": "Base state rate; local rates add 0.5%-3.9% on top"
+      },
+      {
+        "id": "1a-02",
+        "category": "1A",
+        "data_point": "WA average combined (state+local) sales tax rate",
+        "value": "~9.47%",
+        "year": "2025",
+        "source_name": "National Tax Reports / Tax Foundation",
+        "source_url": "https://nationaltaxreports.com/washington-state-tax-rate/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Max is ~10.35% in Seattle"
+      },
+      {
+        "id": "1a-03",
+        "category": "1A",
+        "data_point": "WA state property tax avg effective rate",
+        "value": "~0.75% of assessed value",
+        "year": "2025",
+        "source_name": "National Tax Reports",
+        "source_url": "https://nationaltaxreports.com/washington-state-tax-rate/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Varies 0.8%-1.2% by county with local levies"
+      },
+      {
+        "id": "1a-04",
+        "category": "1A",
+        "data_point": "WA capital gains tax rate (tier 1)",
+        "value": "7% on gains up to $1M (after $270K deduction)",
+        "year": "2025",
+        "source_name": "Perkins & Co",
+        "source_url": "https://perkinsaccounting.com/blog/2025-washington-state-tax-changes/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Two-tier system effective Jan 1 2025; deduction inflation-adjusted"
+      },
+      {
+        "id": "1a-05",
+        "category": "1A",
+        "data_point": "WA capital gains tax rate (tier 2)",
+        "value": "9.9% on gains over $1M",
+        "year": "2025",
+        "source_name": "Perkins & Co",
+        "source_url": "https://perkinsaccounting.com/blog/2025-washington-state-tax-changes/",
+        "retrieved_date": "2026-02-07",
+        "notes": "New tier added in 2025 legislation"
+      },
+      {
+        "id": "1a-06",
+        "category": "1A",
+        "data_point": "WA B&O tax rate (Service & Other)",
+        "value": "1.5% (<$1M), 1.75% ($1M-$5M), 2.1% (>$5M)",
+        "year": "2025",
+        "source_name": "Stoel Rives LLP",
+        "source_url": "https://www.stoel.com/insights/publications/2025-washington-tax-legislation-wrap-up",
+        "retrieved_date": "2026-02-07",
+        "notes": "Progressive rates effective Oct 1 2025"
+      },
+      {
+        "id": "1a-07",
+        "category": "1A",
+        "data_point": "WA B&O tax rate (Retailing)",
+        "value": "0.471%",
+        "year": "2025",
+        "source_name": "RSM US",
+        "source_url": "https://rsmus.com/insights/tax-alerts/2025/washington-state-enacts-broad-tax-increases.html",
+        "retrieved_date": "2026-02-07",
+        "notes": "Increases to 0.5% on Jan 1 2027"
+      },
+      {
+        "id": "1a-08",
+        "category": "1A",
+        "data_point": "WA no state income tax",
+        "value": "No broad-based state income tax",
+        "year": "2025",
+        "source_name": "WA Dept of Revenue",
+        "source_url": "https://dor.wa.gov/taxes-rates/sales-use-tax-rates",
+        "retrieved_date": "2026-02-07",
+        "notes": "WA Constitution Article VII; capital gains tax classified as excise tax"
+      },
+      {
+        "id": "1a-09",
+        "category": "1A",
+        "data_point": "WA sales tax expansion to services",
+        "value": "IT consulting, digital advertising, custom software, staffing, security, data processing",
+        "year": "2025",
+        "source_name": "Delap CPA",
+        "source_url": "https://www.delapcpa.com/state-and-local-tax/2025-washington-state-tax-law-changes/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Effective Oct 1 2025"
+      }
+    ],
+    "1B": [
+      {
+        "id": "1b-01",
+        "category": "1B",
+        "data_point": "ITEP Who Pays ranking for WA",
+        "value": "2nd most regressive state (behind Florida)",
+        "year": "2024",
+        "source_name": "ITEP Who Pays 7th Edition",
+        "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Improved from #1 due to capital gains tax and Working Families Tax Credit"
+      },
+      {
+        "id": "1b-02",
+        "category": "1B",
+        "data_point": "Effective tax rate - lowest 20% (income <$33,500)",
+        "value": "13.8%",
+        "year": "2024",
+        "source_name": "ITEP Who Pays 7th Edition",
+        "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Avg income $18,600; down from 17.8% in prior edition"
+      },
+      {
+        "id": "1b-03",
+        "category": "1B",
+        "data_point": "Effective tax rate - second 20% ($33,500-$61,800)",
+        "value": "10.9%",
+        "year": "2024",
+        "source_name": "ITEP Who Pays 7th Edition",
+        "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Avg income $47,400"
+      },
+      {
+        "id": "1b-04",
+        "category": "1B",
+        "data_point": "Effective tax rate - middle 20% ($61,800-$107,700)",
+        "value": "10.9%",
+        "year": "2024",
+        "source_name": "ITEP Who Pays 7th Edition",
+        "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Avg income $82,400"
+      },
+      {
+        "id": "1b-05",
+        "category": "1B",
+        "data_point": "Effective tax rate - fourth 20% ($107,700-$162,900)",
+        "value": "9.4%",
+        "year": "2024",
+        "source_name": "ITEP Who Pays 7th Edition",
+        "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Avg income $132,800"
+      },
+      {
+        "id": "1b-06",
+        "category": "1B",
+        "data_point": "Effective tax rate - next 15% ($162,900-$372,900)",
+        "value": "8.0%",
+        "year": "2024",
+        "source_name": "ITEP Who Pays 7th Edition",
+        "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Avg income $235,600"
+      },
+      {
+        "id": "1b-07",
+        "category": "1B",
+        "data_point": "Effective tax rate - next 4% ($372,900-$878,400)",
+        "value": "5.4%",
+        "year": "2024",
+        "source_name": "ITEP Who Pays 7th Edition",
+        "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Avg income $537,800"
+      },
+      {
+        "id": "1b-08",
+        "category": "1B",
+        "data_point": "Effective tax rate - top 1% (>$878,400)",
+        "value": "4.1%",
+        "year": "2024",
+        "source_name": "ITEP Who Pays 7th Edition",
+        "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Avg income $2,077,500; up from 3% pre-capital gains tax"
+      },
+      {
+        "id": "1b-09",
+        "category": "1B",
+        "data_point": "Regressivity ratio (bottom 20% vs top 1%)",
+        "value": "3.4x (13.8% / 4.1%)",
+        "year": "2024",
+        "source_name": "ITEP Who Pays 7th Edition",
+        "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Lowest earners pay 3.4x the effective rate of top 1%"
+      },
+      {
+        "id": "1b-10",
+        "category": "1B",
+        "data_point": "ITEP Who Pays national report URL",
+        "value": "Full 50-state comparison",
+        "year": "2024",
+        "source_name": "ITEP Who Pays 7th Edition",
+        "source_url": "https://itep.org/whopays-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Main report with methodology and all state rankings"
+      }
+    ],
+    "4A": [
+      {
+        "id": "4a-01",
+        "category": "4A",
+        "data_point": "WA state population",
+        "value": "7,958,180",
+        "year": "2024",
+        "source_name": "US Census Bureau QuickFacts",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+        "retrieved_date": "2026-02-07",
+        "notes": "July 1 2024 estimate"
+      },
+      {
+        "id": "4a-02",
+        "category": "4A",
+        "data_point": "WA state population (projected)",
+        "value": "8,001,020",
+        "year": "2025",
+        "source_name": "WA Office of Financial Management",
+        "source_url": "https://ofm.wa.gov/wp-content/uploads/sites/default/files/public/dataresearch/pop/april1/ofm_april1_poptrends.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "July 1 2025 projection"
+      },
+      {
+        "id": "4a-03",
+        "category": "4A",
+        "data_point": "WA number of households",
+        "value": "3,064,820",
+        "year": "2024",
+        "source_name": "US Census Bureau QuickFacts",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+        "retrieved_date": "2026-02-07",
+        "notes": "2020-2024 ACS estimate"
+      },
+      {
+        "id": "4a-04",
+        "category": "4A",
+        "data_point": "WA median household income",
+        "value": "$98,141",
+        "year": "2024",
+        "source_name": "US Census Bureau QuickFacts",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+        "retrieved_date": "2026-02-07",
+        "notes": "2020-2024, in 2024 dollars"
+      },
+      {
+        "id": "4a-05",
+        "category": "4A",
+        "data_point": "WA median household income (ACS 2023)",
+        "value": "$94,952",
+        "year": "2023",
+        "source_name": "Census ACS / washington-demographics.com",
+        "source_url": "https://www.washington-demographics.com/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Inflation-adjusted to 2023"
+      },
+      {
+        "id": "4a-06",
+        "category": "4A",
+        "data_point": "WA poverty rate",
+        "value": "9.2%",
+        "year": "2024",
+        "source_name": "US Census Bureau QuickFacts",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+        "retrieved_date": "2026-02-07",
+        "notes": "2020-2024 estimate"
+      },
+      {
+        "id": "4a-07",
+        "category": "4A",
+        "data_point": "WA owner-occupied housing rate",
+        "value": "63.8%",
+        "year": "2024",
+        "source_name": "US Census Bureau QuickFacts",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+        "retrieved_date": "2026-02-07",
+        "notes": "2020-2024 estimate"
+      },
+      {
+        "id": "4a-08",
+        "category": "4A",
+        "data_point": "WA median value owner-occupied housing",
+        "value": "$564,600",
+        "year": "2024",
+        "source_name": "US Census Bureau QuickFacts",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+        "retrieved_date": "2026-02-07",
+        "notes": "2020-2024 estimate"
+      },
+      {
+        "id": "4a-09",
+        "category": "4A",
+        "data_point": "WA persons per household",
+        "value": "2.5",
+        "year": "2023",
+        "source_name": "Census Reporter",
+        "source_url": "https://censusreporter.org/profiles/04000US53-washington/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Average household size"
+      }
+    ],
+    "1C": [
+      {
+        "id": "1c-01",
+        "category": "1C",
+        "data_point": "WA total General Fund tax revenue (annual)",
+        "value": "$27.13 billion",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "FY2024 total state tax revenue"
+      },
+      {
+        "id": "1c-02",
+        "category": "1C",
+        "data_point": "WA sales & use tax revenue",
+        "value": "$13.07 billion",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "48.2% of General Fund tax revenue; state portion only"
+      },
+      {
+        "id": "1c-03",
+        "category": "1C",
+        "data_point": "WA B&O tax revenue",
+        "value": "$4.27 billion",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "15.7% of General Fund tax revenue"
+      },
+      {
+        "id": "1c-04",
+        "category": "1C",
+        "data_point": "WA state property tax revenue",
+        "value": "$2.71 billion",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "10% of General Fund; state levy only, excludes local"
+      },
+      {
+        "id": "1c-05",
+        "category": "1C",
+        "data_point": "WA Real Estate Excise Tax revenue",
+        "value": "$1.12 billion",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "1c-06",
+        "category": "1C",
+        "data_point": "WA Public Utility Tax revenue",
+        "value": "$0.56 billion",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "1c-07",
+        "category": "1C",
+        "data_point": "WA Insurance Premium Tax revenue",
+        "value": "$0.78 billion",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "1c-08",
+        "category": "1C",
+        "data_point": "WA biennial budget revenue (2023-25)",
+        "value": "~$66.5 billion",
+        "year": "2023-25",
+        "source_name": "WA OFM / WA State Standard",
+        "source_url": "https://washingtonstatestandard.com/2024/06/26/state-revenues-tumble-nearly-500-million-but-wa-lawmakers-arent-fretting/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Includes federal and non-tax sources"
+      },
+      {
+        "id": "1c-09",
+        "category": "1C",
+        "data_point": "WA DOR Tax Statistics 2024 report",
+        "value": "Full statistical report with tables and charts",
+        "year": "FY2024",
+        "source_name": "WA DOR",
+        "source_url": "https://dor.wa.gov/about/statistics-reports/business-and-sales-taxes/tax-statistics/tax-statistics-2024",
+        "retrieved_date": "2026-02-07",
+        "notes": "Primary source for all revenue breakdowns"
+      },
+      {
+        "id": "1c-10",
+        "category": "1C",
+        "data_point": "WA DOR Annual Report FY2024",
+        "value": "Annual report July 2023 - June 2024",
+        "year": "FY2024",
+        "source_name": "WA DOR",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-01/AnnualReport2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Supplementary source"
+      }
+    ],
+    "1D": [
+      {
+        "id": "1d-01",
+        "category": "1D",
+        "data_point": "WA uninsured rate",
+        "value": "6.5%",
+        "year": "2024",
+        "source_name": "America's Health Rankings / Census ACS",
+        "source_url": "https://www.americashealthrankings.org/explore/measures/HealthInsurance/WA",
+        "retrieved_date": "2026-02-07",
+        "notes": "Below national avg of 8.2%"
+      },
+      {
+        "id": "1d-02",
+        "category": "1D",
+        "data_point": "WA estimated uninsured residents",
+        "value": "~513,500",
+        "year": "2024",
+        "source_name": "America's Health Rankings",
+        "source_url": "https://www.americashealthrankings.org/explore/measures/HealthInsurance/WA",
+        "retrieved_date": "2026-02-07",
+        "notes": "Calculated: 7.9M x 6.5%"
+      },
+      {
+        "id": "1d-03",
+        "category": "1D",
+        "data_point": "WA employer-sponsored coverage rate",
+        "value": "49.3%",
+        "year": "2024",
+        "source_name": "Kaiser Family Foundation",
+        "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/total-population/",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "1d-04",
+        "category": "1D",
+        "data_point": "WA Medicaid coverage rate",
+        "value": "19.5%",
+        "year": "2024",
+        "source_name": "Kaiser Family Foundation",
+        "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/total-population/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Apple Health / Medicaid expansion"
+      },
+      {
+        "id": "1d-05",
+        "category": "1D",
+        "data_point": "WA Medicare coverage rate",
+        "value": "18.9%",
+        "year": "2024",
+        "source_name": "Kaiser Family Foundation",
+        "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/total-population/",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "1d-06",
+        "category": "1D",
+        "data_point": "WA non-group (individual market) coverage rate",
+        "value": "6.7%",
+        "year": "2024",
+        "source_name": "Kaiser Family Foundation",
+        "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/total-population/",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "1d-07",
+        "category": "1D",
+        "data_point": "US national uninsured rate (comparison)",
+        "value": "8.2%",
+        "year": "2024",
+        "source_name": "America's Health Rankings",
+        "source_url": "https://www.americashealthrankings.org/explore/measures/HealthInsurance/WA",
+        "retrieved_date": "2026-02-07",
+        "notes": "WA is below national avg"
+      },
+      {
+        "id": "1d-08",
+        "category": "1D",
+        "data_point": "KFF state health data portal",
+        "value": "Full WA health coverage breakdown",
+        "year": "2024",
+        "source_name": "Kaiser Family Foundation",
+        "source_url": "https://www.kff.org/state-category/health-coverage-uninsured/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Comprehensive source for all coverage types"
+      },
+      {
+        "id": "1d-09",
+        "category": "1D",
+        "data_point": "Census uninsured story (post-Medicaid unwinding)",
+        "value": "Uptick in uninsured after pandemic coverage ended",
+        "year": "2024",
+        "source_name": "US Census Bureau",
+        "source_url": "https://www.census.gov/library/stories/2025/09/uninsured-rates.html",
+        "retrieved_date": "2026-02-07",
+        "notes": "Context for recent trends"
+      }
+    ],
+    "1E": [
+      {
+        "id": "1e-01",
+        "category": "1E",
+        "data_point": "WA avg annual infant center care cost",
+        "value": "$19,500–$21,348",
+        "year": "2024-25",
+        "source_name": "Child Care Aware of America",
+        "source_url": "https://info.childcareaware.org/hubfs/Pricing%20and%20Landscape%20Infograms/Pricing%20Sheets%20PDF/2024-2025-price-fact-sheet-child-care-affordability-Washington.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Licensed center; Seattle metro higher"
+      },
+      {
+        "id": "1e-02",
+        "category": "1E",
+        "data_point": "WA avg annual toddler center care cost",
+        "value": "$16,000–$19,236",
+        "year": "2024-25",
+        "source_name": "Child Care Aware of America",
+        "source_url": "https://info.childcareaware.org/hubfs/Pricing%20and%20Landscape%20Infograms/Pricing%20Sheets%20PDF/2024-2025-price-fact-sheet-child-care-affordability-Washington.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "1e-03",
+        "category": "1E",
+        "data_point": "WA avg annual preschool center care cost",
+        "value": "$14,500–$16,000",
+        "year": "2024-25",
+        "source_name": "Child Care Aware of America",
+        "source_url": "https://info.childcareaware.org/hubfs/Pricing%20and%20Landscape%20Infograms/Pricing%20Sheets%20PDF/2024-2025-price-fact-sheet-child-care-affordability-Washington.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "1e-04",
+        "category": "1E",
+        "data_point": "WA avg annual family child care (in-home) cost",
+        "value": "~$13,000–$16,200",
+        "year": "2024-25",
+        "source_name": "Child Care Aware of America",
+        "source_url": "https://info.childcareaware.org/hubfs/Pricing%20and%20Landscape%20Infograms/Pricing%20Sheets%20PDF/2024-2025-price-fact-sheet-child-care-affordability-Washington.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Varies by age"
+      },
+      {
+        "id": "1e-05",
+        "category": "1E",
+        "data_point": "WA infant care as % of median income (married)",
+        "value": "~15%",
+        "year": "2024-25",
+        "source_name": "Child Care Aware of America",
+        "source_url": "https://info.childcareaware.org/hubfs/Pricing%20and%20Landscape%20Infograms/Pricing%20Sheets%20PDF/2024-2025-price-fact-sheet-child-care-affordability-Washington.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Federal benchmark is 7%; >50% for single parents"
+      },
+      {
+        "id": "1e-06",
+        "category": "1E",
+        "data_point": "WA ranks top 5 nationally for childcare cost",
+        "value": "Among most expensive states for infant/toddler care",
+        "year": "2024",
+        "source_name": "World Population Review",
+        "source_url": "https://worldpopulationreview.com/state-rankings/child-care-costs-by-state",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "1e-07",
+        "category": "1E",
+        "data_point": "WA DCYF 2024 Market Rate Study",
+        "value": "Full report on childcare market rates by region/age",
+        "year": "2024",
+        "source_name": "WA DCYF",
+        "source_url": "https://dcyf.wa.gov/sites/default/files/pdf/reports/ChildCareMarketRateStudy2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Primary state source for childcare costs"
+      },
+      {
+        "id": "1e-08",
+        "category": "1E",
+        "data_point": "WA DCYF Cost of Quality Study (summary)",
+        "value": "Market rate study summary report",
+        "year": "2024",
+        "source_name": "WA DCYF",
+        "source_url": "https://dcyf.wa.gov/sites/default/files/pdf/ChildCareMarketRateStudySummaryReport.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "1e-09",
+        "category": "1E",
+        "data_point": "Child Care Aware WA data & statistics portal",
+        "value": "State childcare data and advocacy",
+        "year": "2024",
+        "source_name": "Child Care Aware WA",
+        "source_url": "https://childcareawarewa.org/data-advocacy/child-care-data-statistics/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Includes desert data, supply stats"
+      },
+      {
+        "id": "1e-10",
+        "category": "1E",
+        "data_point": "Infant care costs more than in-state college tuition in WA",
+        "value": "By over $8,000/year",
+        "year": "2024",
+        "source_name": "Economic Policy Institute",
+        "source_url": "https://www.epi.org/press/updated-resource-calculates-the-cost-of-child-care-in-every-state-child-care-is-more-expensive-than-public-college-tuition-in-38-states-and-washington-d-c/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Powerful comparison for intro page"
+      }
+    ],
+    "2A": [
+      {
+        "id": "2a-01",
+        "category": "2A",
+        "data_point": "IRS SOI state data (returns by AGI bracket)",
+        "value": "Excel files with # returns and total AGI by bracket for WA",
+        "year": "2022-2023",
+        "source_name": "IRS Statistics of Income",
+        "source_url": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-state-data",
+        "retrieved_date": "2026-02-07",
+        "notes": "Download Excel for WA; brackets: $1-$10K, $10K-$20K, etc."
+      },
+      {
+        "id": "2a-02",
+        "category": "2A",
+        "data_point": "IRS SOI AGI percentile data by state",
+        "value": "Top 1%, 5%, 10%, 25%, 50% thresholds for WA",
+        "year": "2022-2023",
+        "source_name": "IRS Statistics of Income",
+        "source_url": "https://www.irs.gov/statistics/soi-tax-stats-adjusted-gross-income-agi-percentile-data-by-state",
+        "retrieved_date": "2026-02-07",
+        "notes": "Key for progressive bracket modeling"
+      },
+      {
+        "id": "2a-03",
+        "category": "2A",
+        "data_point": "IRS SOI statistical tables by size of AGI",
+        "value": "Detailed breakdown tables",
+        "year": "2022-2023",
+        "source_name": "IRS Statistics of Income",
+        "source_url": "https://www.irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-size-of-adjusted-gross-income",
+        "retrieved_date": "2026-02-07",
+        "notes": "Most granular source"
+      },
+      {
+        "id": "2a-04",
+        "category": "2A",
+        "data_point": "WA mean AGI (FRED)",
+        "value": "$114,000",
+        "year": "2022",
+        "source_name": "Federal Reserve FRED",
+        "source_url": "https://fred.stlouisfed.org/series/MEANAGIWA53A052NCEN",
+        "retrieved_date": "2026-02-07",
+        "notes": "Mean AGI for WA filers"
+      },
+      {
+        "id": "2a-05",
+        "category": "2A",
+        "data_point": "WA median household income",
+        "value": "$98,141",
+        "year": "2024",
+        "source_name": "US Census Bureau QuickFacts",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+        "retrieved_date": "2026-02-07",
+        "notes": "Cross-ref from res-4a"
+      }
+    ],
+    "2B": [
+      {
+        "id": "2b-01",
+        "category": "2B",
+        "data_point": "WA Q4 2024 taxable retail sales",
+        "value": "$61.3 billion",
+        "year": "Q4 2024",
+        "source_name": "WA DOR News Release",
+        "source_url": "https://dor.wa.gov/about/news-releases/2025/retail-sales-increase-314-fourth-quarter-2024",
+        "retrieved_date": "2026-02-07",
+        "notes": "3.14% increase over Q4 2023"
+      },
+      {
+        "id": "2b-02",
+        "category": "2B",
+        "data_point": "WA state sales tax revenue (annual)",
+        "value": "$13.07 billion",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "State portion only; 48.2% of General Fund"
+      },
+      {
+        "id": "2b-03",
+        "category": "2B",
+        "data_point": "WA state sales tax rate",
+        "value": "6.5%",
+        "year": "2025",
+        "source_name": "WA DOR",
+        "source_url": "https://dor.wa.gov/taxes-rates/sales-use-tax-rates",
+        "retrieved_date": "2026-02-07",
+        "notes": "Base state rate"
+      },
+      {
+        "id": "2b-04",
+        "category": "2B",
+        "data_point": "WA DOR Quarterly Business Review Q4 2024",
+        "value": "Full quarterly data with tables by industry/location",
+        "year": "Q4 2024",
+        "source_name": "WA DOR",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-06/Q424QBR.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Tables 3A/4A/6 have detailed breakdowns"
+      },
+      {
+        "id": "2b-05",
+        "category": "2B",
+        "data_point": "WA DOR Statewide Taxable Retail Sales tool",
+        "value": "Interactive reporting tool",
+        "year": "2024",
+        "source_name": "WA DOR",
+        "source_url": "https://apps.dor.wa.gov/ResearchStats/Content/TaxableRetailSalesState/Report.aspx",
+        "retrieved_date": "2026-02-07",
+        "notes": "Can query annual totals directly"
+      },
+      {
+        "id": "2b-06",
+        "category": "2B",
+        "data_point": "WA sales tax exemptions",
+        "value": "Groceries (most food), prescription drugs, medical devices exempt",
+        "year": "2025",
+        "source_name": "WA DOR",
+        "source_url": "https://dor.wa.gov/taxes-rates/sales-use-tax-rates",
+        "retrieved_date": "2026-02-07",
+        "notes": "Important caveat for modeling"
+      },
+      {
+        "id": "2b-07",
+        "category": "2B",
+        "data_point": "WA 2023 full year taxable retail sales",
+        "value": "$238.4 billion",
+        "year": "2023",
+        "source_name": "AWB Institute / WA DOR",
+        "source_url": "https://www.awbinstitute.org/indicator/quarterly-retail-sales/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Full year total"
+      },
+      {
+        "id": "2b-08",
+        "category": "2B",
+        "data_point": "WA 2024 full year taxable retail sales (estimated)",
+        "value": "$241–$244 billion",
+        "year": "2024",
+        "source_name": "AWB Institute / WA DOR QBR",
+        "source_url": "https://www.awbinstitute.org/indicator/quarterly-retail-sales/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Preliminary: sum of 4 quarters ~$60-61B each"
+      },
+      {
+        "id": "2b-09",
+        "category": "2B",
+        "data_point": "WA DOR Quarterly Business Reviews portal",
+        "value": "All quarterly reports with detailed tables",
+        "year": "2024",
+        "source_name": "WA DOR",
+        "source_url": "https://dor.wa.gov/about/statistics-reports/business-and-sales-taxes/quarterly-business-reviews",
+        "retrieved_date": "2026-02-07",
+        "notes": "Official source for quarterly and annual totals"
+      },
+      {
+        "id": "2b-10",
+        "category": "2B",
+        "data_point": "WA DOR interactive QBR report tool",
+        "value": "Searchable database",
+        "year": "2024",
+        "source_name": "WA DOR",
+        "source_url": "https://apps.dor.wa.gov/ResearchStats/Content/QuarterlyBusinessReview/Report.aspx",
+        "retrieved_date": "2026-02-07",
+        "notes": "Can generate custom queries"
+      }
+    ],
+    "2C": [
+      {
+        "id": "2c-01",
+        "category": "2C",
+        "data_point": "WA total assessed property value (statewide)",
+        "value": "$833,036,264,377 (~$833 billion)",
+        "year": "2024",
+        "source_name": "King County Assessor / WA DOR",
+        "source_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/assessor/buildings-property/reports/annual-reports/2024/tax-stats/24staterealprop.ashx",
+        "retrieved_date": "2026-02-07",
+        "notes": "All taxable property statewide"
+      },
+      {
+        "id": "2c-02",
+        "category": "2C",
+        "data_point": "WA state property tax levy rate - Part 1 (School Fund)",
+        "value": "$1.63842 per $1,000",
+        "year": "2024",
+        "source_name": "WA DOR Property Tax Statistics",
+        "source_url": "https://dor.wa.gov/about/statistics-reports/property-tax-statistics/property-tax-statistics-2024",
+        "retrieved_date": "2026-02-07",
+        "notes": "State School Fund Part 1"
+      },
+      {
+        "id": "2c-03",
+        "category": "2C",
+        "data_point": "WA state property tax levy rate - Part 2 (McCleary)",
+        "value": "$0.87909 per $1,000",
+        "year": "2024",
+        "source_name": "WA DOR Property Tax Statistics",
+        "source_url": "https://dor.wa.gov/about/statistics-reports/property-tax-statistics/property-tax-statistics-2024",
+        "retrieved_date": "2026-02-07",
+        "notes": "State School Fund Part 2"
+      },
+      {
+        "id": "2c-04",
+        "category": "2C",
+        "data_point": "WA total state property tax levy rate",
+        "value": "$2.51751 per $1,000",
+        "year": "2024",
+        "source_name": "WA DOR Property Tax Statistics",
+        "source_url": "https://dor.wa.gov/about/statistics-reports/property-tax-statistics/property-tax-statistics-2024",
+        "retrieved_date": "2026-02-07",
+        "notes": "Sum of Part 1 + Part 2"
+      },
+      {
+        "id": "2c-05",
+        "category": "2C",
+        "data_point": "WA state property tax revenue",
+        "value": "$2.71 billion",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "10% of General Fund; state levy only"
+      },
+      {
+        "id": "2c-06",
+        "category": "2C",
+        "data_point": "WA DOR Property Tax Statistics 2024",
+        "value": "Full statistical report",
+        "year": "2024",
+        "source_name": "WA DOR",
+        "source_url": "https://dor.wa.gov/about/statistics-reports/property-tax-statistics/property-tax-statistics-2024",
+        "retrieved_date": "2026-02-07",
+        "notes": "Primary source for all property tax data"
+      },
+      {
+        "id": "2c-07",
+        "category": "2C",
+        "data_point": "WA DOR property tax interactive data",
+        "value": "Historical values, rates, and inflation",
+        "year": "2024",
+        "source_name": "WA DOR",
+        "source_url": "https://dor.wa.gov/about/statistics-reports/interactive-data/property-tax-history-values-rates-and-inflation-interactive-data-graphic",
+        "retrieved_date": "2026-02-07",
+        "notes": "Good for trends"
+      },
+      {
+        "id": "2c-08",
+        "category": "2C",
+        "data_point": "MRSC Property Tax Basics",
+        "value": "Explanation of WA budget-based property tax system",
+        "year": "2024",
+        "source_name": "MRSC",
+        "source_url": "https://mrsc.org/explore-topics/finance/revenues/property-tax",
+        "retrieved_date": "2026-02-07",
+        "notes": "Rates adjust based on revenue needs vs valuations"
+      }
+    ],
+    "3A": [
+      {
+        "id": "3a-01",
+        "category": "3A",
+        "data_point": "WA universal healthcare estimated annual cost range",
+        "value": "$58–$65 billion/year",
+        "year": "2022-2025",
+        "source_name": "WA Universal Health Care Commission / HCA",
+        "source_url": "https://www.hca.wa.gov/about-hca/who-we-are/universal-health-care-commission",
+        "retrieved_date": "2026-02-07",
+        "notes": "Range depending on benefit package; replaces all current spending"
+      },
+      {
+        "id": "3a-02",
+        "category": "3A",
+        "data_point": "UHCC 2025 Annual Report to Legislature",
+        "value": "Latest commission report with cost modeling updates",
+        "year": "2025",
+        "source_name": "WA HCA",
+        "source_url": "https://www.hca.wa.gov/assets/program/universal-health-care-commission-annual-leg-report-2025.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Includes FTAC analysis and transition models"
+      },
+      {
+        "id": "3a-03",
+        "category": "3A",
+        "data_point": "UHCC 2024 Annual Report to Legislature",
+        "value": "2024 progress report",
+        "year": "2024",
+        "source_name": "WA HCA",
+        "source_url": "https://www.hca.wa.gov/assets/program/universal-health-care-commission-annual-report-20241101.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "3a-04",
+        "category": "3A",
+        "data_point": "Milliman actuarial cost analysis for WA universal HC",
+        "value": "Modeled 3 scenarios: Medicaid-like, PEBB-like, Cascade Care Silver",
+        "year": "2025",
+        "source_name": "Milliman",
+        "source_url": "https://www.milliman.com/en/insight/universal-health-care-system-population-benefit-scenarios",
+        "retrieved_date": "2026-02-07",
+        "notes": "Independent actuarial analysis commissioned by HCA"
+      },
+      {
+        "id": "3a-05",
+        "category": "3A",
+        "data_point": "UHCC Commission page",
+        "value": "Official commission homepage with all documents",
+        "year": "2025",
+        "source_name": "WA HCA",
+        "source_url": "https://www.hca.wa.gov/about-hca/who-we-are/universal-health-care-commission",
+        "retrieved_date": "2026-02-07",
+        "notes": "Central hub for all reports"
+      },
+      {
+        "id": "3a-06",
+        "category": "3A",
+        "data_point": "WA universal HC news coverage",
+        "value": "Commission plotting pathway to universal system",
+        "year": "2025",
+        "source_name": "KPQ News",
+        "source_url": "https://kpq.com/washington-state-commission-plots-pathway-toward-universal-health-care-system/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Context and public discussion"
+      },
+      {
+        "id": "3a-07",
+        "category": "3A",
+        "data_point": "Key note: cost replaces existing spending",
+        "value": "Universal HC would replace current private+public spending, not add to it; requires new tax funding to replace premiums",
+        "year": "2025",
+        "source_name": "WA HCA / UHCC Reports",
+        "source_url": "https://www.hca.wa.gov/assets/program/universal-health-care-commission-annual-leg-report-2025.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Critical for simulator: net new funding = total cost minus current public spending"
+      },
+      {
+        "id": "3a-08",
+        "category": "3A",
+        "data_point": "WA per capita healthcare spending",
+        "value": "$10,989",
+        "year": "2020",
+        "source_name": "KFF State Health Facts / CMS",
+        "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/health-spending-per-capita/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Most recent state-level CMS data; 2020 baseline"
+      },
+      {
+        "id": "3a-09",
+        "category": "3A",
+        "data_point": "US national per capita health spending",
+        "value": "$15,474",
+        "year": "2024",
+        "source_name": "CMS NHE Fact Sheet",
+        "source_url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+        "retrieved_date": "2026-02-07",
+        "notes": "Projected 2024; 18% of GDP"
+      },
+      {
+        "id": "3a-10",
+        "category": "3A",
+        "data_point": "WA estimated total healthcare spending (all payers)",
+        "value": "~$87-95 billion/year",
+        "year": "2024",
+        "source_name": "Derived: per capita x population",
+        "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/health-spending-per-capita/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Rough estimate: $10,989 (2020) adjusted for growth x 7.96M pop; exact figure in HCA reports"
+      },
+      {
+        "id": "3a-11",
+        "category": "3A",
+        "data_point": "WA Health Care Cost Transparency Board 2024 report",
+        "value": "Total health care expenditure tracking and benchmarks",
+        "year": "2024",
+        "source_name": "WA HCA",
+        "source_url": "https://www.hca.wa.gov/assets/program/cost-board-2024-leg-report.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Official state cost tracking"
+      },
+      {
+        "id": "3a-12",
+        "category": "3A",
+        "data_point": "WA HCA spending growth report 2019-2022",
+        "value": "Detailed spending trends by payer",
+        "year": "2022",
+        "source_name": "WA HCA",
+        "source_url": "https://www.hca.wa.gov/assets/program/data-call-report-2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Data call report with growth analysis"
+      },
+      {
+        "id": "3a-13",
+        "category": "3A",
+        "data_point": "KFF National Health Spending Explorer",
+        "value": "Interactive tool for spending by payer, state",
+        "year": "2024",
+        "source_name": "Kaiser Family Foundation",
+        "source_url": "https://www.kff.org/interactive/health-spending-explorer/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Useful for breakdowns"
+      }
+    ],
+    "3B": [
+      {
+        "id": "3b-01",
+        "category": "3B",
+        "data_point": "WA Fair Start for Kids Act total investment",
+        "value": "~$1.1 billion",
+        "year": "2021-2025",
+        "source_name": "US Chamber Foundation",
+        "source_url": "https://www.uschamberfoundation.org/solutions-bank/washington-states-fair-start-for-kids-act-phased-funding-for-eearly-childhood-education-access-and-quality",
+        "retrieved_date": "2026-02-07",
+        "notes": "Total commitment to improve affordability/access"
+      },
+      {
+        "id": "3b-02",
+        "category": "3B",
+        "data_point": "WCCC expanded eligibility (July 2025)",
+        "value": "Up to 75% of state median income ($76,626/yr for family of 3)",
+        "year": "2025",
+        "source_name": "Start Early WA",
+        "source_url": "https://www.startearly.org/app/uploads/2021/05/2025-Fair-Start-Overview-11.14.24.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Expansion from 60% to 75% SMI"
+      },
+      {
+        "id": "3b-03",
+        "category": "3B",
+        "data_point": "WCCC projected caseload (SFY 2027)",
+        "value": "~40,108 families",
+        "year": "2027",
+        "source_name": "Start Early WA",
+        "source_url": "https://www.startearly.org/app/uploads/2021/05/2025-Fair-Start-Overview-11.14.24.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Increase of ~8,000 families from expansion"
+      },
+      {
+        "id": "3b-04",
+        "category": "3B",
+        "data_point": "WCCC expanded eligibility budget need",
+        "value": "$53.8M (SFY2026), $140M (SFY2027)",
+        "year": "2026-27",
+        "source_name": "Start Early WA decision packages",
+        "source_url": "https://www.startearly.org/app/uploads/2024/09/WA-State-Agency-Decision-Packages-Overview-09.18.2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "For eligibility expansion alone"
+      },
+      {
+        "id": "3b-05",
+        "category": "3B",
+        "data_point": "WCCC subsidy rate increases budget",
+        "value": "$143.5M/$154.8M (centers SFY2026/27); $111.2M/$122.9M (family homes)",
+        "year": "2026-27",
+        "source_name": "Start Early WA decision packages",
+        "source_url": "https://www.startearly.org/app/uploads/2024/09/WA-State-Agency-Decision-Packages-Overview-09.18.2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "~27% avg statewide increase to cost-of-quality rates"
+      },
+      {
+        "id": "3b-06",
+        "category": "3B",
+        "data_point": "Only ~29% of children needing care served by licensed providers",
+        "value": "29%",
+        "year": "2025",
+        "source_name": "Cascade PBS",
+        "source_url": "https://www.cascadepbs.org/politics/2025/01/new-washington-bill-aims-end-fees-child-care-providers/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Significant supply gap"
+      },
+      {
+        "id": "3b-07",
+        "category": "3B",
+        "data_point": "WCCC copay schedule",
+        "value": "$65-$165/month (20-60% SMI); $0 below 20% SMI",
+        "year": "2025",
+        "source_name": "Start Early WA",
+        "source_url": "https://www.startearly.org/app/uploads/2021/05/2025-Fair-Start-Overview-11.14.24.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Down from up to $700/month previously"
+      },
+      {
+        "id": "3b-08",
+        "category": "3B",
+        "data_point": "DCYF moving to cost-of-quality reimbursement",
+        "value": "July 2025 implementation",
+        "year": "2025",
+        "source_name": "WA DCYF Market Rate Study",
+        "source_url": "https://dcyf.wa.gov/sites/default/files/pdf/ChildCareMarketRateStudySummaryReport.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Replacing market-based with cost-based rates"
+      },
+      {
+        "id": "3b-09",
+        "category": "3B",
+        "data_point": "WA childcare legislative session summary 2024",
+        "value": "ECEAP rate increases (5-9%), provider support",
+        "year": "2024",
+        "source_name": "WA State Standard",
+        "source_url": "https://washingtonstatestandard.com/2024/03/14/how-wa-child-care-providers-fared-this-legislative-session/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Context for ongoing legislative efforts"
+      },
+      {
+        "id": "3b-10",
+        "category": "3B",
+        "data_point": "WA children under 5 (% of population)",
+        "value": "5.3% (~421,784)",
+        "year": "2024",
+        "source_name": "US Census Bureau QuickFacts",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/WA/PST045224",
+        "retrieved_date": "2026-02-07",
+        "notes": "7,958,180 x 5.3%"
+      },
+      {
+        "id": "3b-11",
+        "category": "3B",
+        "data_point": "WA estimated children under 6",
+        "value": "~505,000",
+        "year": "2024",
+        "source_name": "Derived from Census",
+        "source_url": "https://www.census.gov/quickfacts/fact/table/WA/PST045224",
+        "retrieved_date": "2026-02-07",
+        "notes": "Under 5 + estimated 1 cohort year of 5-year-olds"
+      },
+      {
+        "id": "3b-12",
+        "category": "3B",
+        "data_point": "Estimated universal childcare cost (all under 6)",
+        "value": "~$7.25 billion/year",
+        "year": "2024",
+        "source_name": "Derived: 505K x $14,355 avg",
+        "source_url": "https://www.americanprogress.org/data-view/early-learning-in-the-united-states/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Full-time center-based for all; actual would be lower with enrollment rates"
+      },
+      {
+        "id": "3b-13",
+        "category": "3B",
+        "data_point": "Center for American Progress early learning data",
+        "value": "State-by-state childcare data dashboard",
+        "year": "2024",
+        "source_name": "Center for American Progress",
+        "source_url": "https://www.americanprogress.org/data-view/early-learning-in-the-united-states/",
+        "retrieved_date": "2026-02-07",
+        "notes": null
+      },
+      {
+        "id": "3b-14",
+        "category": "3B",
+        "data_point": "Annie E. Casey child population by age group",
+        "value": "State-level age breakdowns",
+        "year": "2024",
+        "source_name": "Annie E. Casey Foundation",
+        "source_url": "https://datacenter.aecf.org/data/tables/101-child-population-by-age-group",
+        "retrieved_date": "2026-02-07",
+        "notes": "KIDS COUNT data center"
+      }
+    ],
+    "4B": [
+      {
+        "id": "4b-01",
+        "category": "4B",
+        "data_point": "Florida ITEP regressivity rank",
+        "value": "#1 most regressive",
+        "year": "2024",
+        "source_name": "ITEP Who Pays Map",
+        "source_url": "https://itep.org/whopays-map-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "No income tax; bottom 20% pay 13.2%, top 1% pay 2.7%"
+      },
+      {
+        "id": "4b-02",
+        "category": "4B",
+        "data_point": "Texas ITEP regressivity rank",
+        "value": "#7 most regressive",
+        "year": "2024",
+        "source_name": "ITEP Who Pays Map",
+        "source_url": "https://itep.org/whopays-map-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "No income tax; bottom 20% pay 13%, top 1% pay 3.1%"
+      },
+      {
+        "id": "4b-03",
+        "category": "4B",
+        "data_point": "Nevada ITEP regressivity rank",
+        "value": "#5 most regressive",
+        "year": "2024",
+        "source_name": "ITEP Who Pays Map",
+        "source_url": "https://itep.org/whopays-map-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "No income tax; bottom 20% pay 13.1%, top 1% pay 2.6%"
+      },
+      {
+        "id": "4b-04",
+        "category": "4B",
+        "data_point": "Oregon ITEP regressivity rank",
+        "value": "#42 (among least regressive)",
+        "year": "2024",
+        "source_name": "ITEP Who Pays Map",
+        "source_url": "https://itep.org/whopays-map-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Progressive income tax, no sales tax; bottom 20% pay 8.2%, top 1% pay 9%"
+      },
+      {
+        "id": "4b-05",
+        "category": "4B",
+        "data_point": "Washington ITEP regressivity rank",
+        "value": "#2 most regressive",
+        "year": "2024",
+        "source_name": "ITEP Who Pays Map",
+        "source_url": "https://itep.org/whopays-map-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Cross-ref: bottom 20% 13.8%, top 1% 4.1%"
+      },
+      {
+        "id": "4b-06",
+        "category": "4B",
+        "data_point": "ITEP Who Pays interactive map (all 50 states)",
+        "value": "State-by-state comparison tool",
+        "year": "2024",
+        "source_name": "ITEP",
+        "source_url": "https://itep.org/whopays-map-7th-edition/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Best source for side-by-side comparisons"
+      },
+      {
+        "id": "4b-07",
+        "category": "4B",
+        "data_point": "ITEP Tax Inequality Index",
+        "value": "Measures whether state taxes increase or decrease inequality",
+        "year": "2024",
+        "source_name": "ITEP",
+        "source_url": "https://itep.org/inequality-index/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Negative = more regressive"
+      },
+      {
+        "id": "4b-08",
+        "category": "4B",
+        "data_point": "ITEP full 50-state report PDF",
+        "value": "Complete distributional analysis",
+        "year": "2024",
+        "source_name": "ITEP",
+        "source_url": "https://media.itep.org/ITEP-Who-Pays-7th-edition.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Downloadable report with all state data"
+      },
+      {
+        "id": "4b-09",
+        "category": "4B",
+        "data_point": "Tax Foundation State Tax Competitiveness Index",
+        "value": "Business-oriented ranking of state tax systems",
+        "year": "2026",
+        "source_name": "Tax Foundation",
+        "source_url": "https://taxfoundation.org/statetaxindex/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Counterpoint perspective to ITEP"
+      },
+      {
+        "id": "4b-10",
+        "category": "4B",
+        "data_point": "ITEP case for progressive state taxes (charts)",
+        "value": "Visual argument for progressive systems",
+        "year": "2024",
+        "source_name": "ITEP",
+        "source_url": "https://itep.org/the-case-for-more-progressive-state-and-local-tax-systems-in-charts/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Good for intro page visuals/narrative"
+      }
+    ],
+    "2D": [
+      {
+        "id": "2d-01",
+        "category": "2D",
+        "data_point": "Baseline: WA state sales tax revenue",
+        "value": "$13.07 billion/year",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "State 6.5% rate on ~$241B taxable sales"
+      },
+      {
+        "id": "2d-02",
+        "category": "2D",
+        "data_point": "Baseline: WA state property tax revenue",
+        "value": "$2.71 billion/year",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "State levy $2.52/$1K on $833B assessed value"
+      },
+      {
+        "id": "2d-03",
+        "category": "2D",
+        "data_point": "Baseline: WA state income tax revenue",
+        "value": "$0",
+        "year": "2025",
+        "source_name": "WA DOR",
+        "source_url": "https://dor.wa.gov/taxes-rates/sales-use-tax-rates",
+        "retrieved_date": "2026-02-07",
+        "notes": "No state income tax; baseline for simulator"
+      },
+      {
+        "id": "2d-04",
+        "category": "2D",
+        "data_point": "Baseline: WA total General Fund tax revenue",
+        "value": "$27.13 billion/year",
+        "year": "FY2024",
+        "source_name": "WA DOR Tax Statistics 2024",
+        "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "All state tax sources combined"
+      },
+      {
+        "id": "2d-05",
+        "category": "2D",
+        "data_point": "Baseline: WA total taxable retail sales",
+        "value": "$241–$244 billion/year",
+        "year": "2024",
+        "source_name": "WA DOR / AWB Institute",
+        "source_url": "https://www.awbinstitute.org/indicator/quarterly-retail-sales/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Sum of 4 quarters; used for sales tax modeling"
+      },
+      {
+        "id": "2d-06",
+        "category": "2D",
+        "data_point": "Baseline: WA total assessed property value",
+        "value": "$833 billion",
+        "year": "2024",
+        "source_name": "WA DOR Property Tax Stats",
+        "source_url": "https://dor.wa.gov/about/statistics-reports/property-tax-statistics/property-tax-statistics-2024",
+        "retrieved_date": "2026-02-07",
+        "notes": "Used for property tax modeling"
+      },
+      {
+        "id": "2d-07",
+        "category": "2D",
+        "data_point": "Simulator target: universal healthcare net new funding",
+        "value": "$58–$65B total minus current public spending",
+        "year": "2025",
+        "source_name": "WA HCA UHCC Reports",
+        "source_url": "https://www.hca.wa.gov/assets/program/universal-health-care-commission-annual-leg-report-2025.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Replaces all current spending; new taxes replace premiums"
+      },
+      {
+        "id": "2d-08",
+        "category": "2D",
+        "data_point": "Simulator target: universal childcare cost",
+        "value": "~$7.25 billion/year (full enrollment estimate)",
+        "year": "2024",
+        "source_name": "Derived estimate",
+        "source_url": "https://www.americanprogress.org/data-view/early-learning-in-the-united-states/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Current state spending ~$1.1B via Fair Start; gap ~$6B+"
+      }
+    ]
+  }
+}
