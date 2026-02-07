@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>fiscaljustice</title>
+    <script>
+      // Capture the current path and redirect to index.html with the path encoded
+      // This allows the SPA router to handle the route on the client side
+      const path = window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace('/?p=' + encodeURIComponent(path));
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

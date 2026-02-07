@@ -5,6 +5,17 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>fiscaljustice</title>
+    <script>
+      // Check if this is a redirect from 404.html
+      (function() {
+        const params = new URLSearchParams(window.location.search);
+        const redirect = params.get('p');
+        if (redirect) {
+          // Restore the original URL without the query parameter
+          history.replaceState(null, '', redirect);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
