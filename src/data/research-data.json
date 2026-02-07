@@ -2,7 +2,7 @@
   "metadata": {
     "description": "Research data for fiscaljustice.com - All data points with source references",
     "retrieved_date": "2026-02-07",
-    "total_data_points": 125,
+    "total_data_points": 133,
     "categories": [
       {
         "code": "1A",
@@ -42,7 +42,7 @@
       },
       {
         "code": "3A",
-        "count": 13
+        "count": 5
       },
       {
         "code": "3B",
@@ -54,6 +54,14 @@
       },
       {
         "code": "2D",
+        "count": 8
+      },
+      {
+        "code": "5A",
+        "count": 8
+      },
+      {
+        "code": "5B",
         "count": 8
       }
     ]
@@ -961,145 +969,57 @@
       {
         "id": "3a-01",
         "category": "3A",
-        "data_point": "WA universal healthcare estimated annual cost range",
-        "value": "$58–$65 billion/year",
-        "year": "2022-2025",
-        "source_name": "WA Universal Health Care Commission / HCA",
-        "source_url": "https://www.hca.wa.gov/about-hca/who-we-are/universal-health-care-commission",
+        "data_point": "WA K-12 annual funding gap (OSPI estimate)",
+        "value": "$3.7 billion/year",
+        "year": "2024",
+        "source_name": "OSPI 2025-27 Budget Request / WA State Standard",
+        "source_url": "https://washingtonstatestandard.com/2024/09/17/reykdal-seeks-3b-injection-for-wa-public-schools-in-next-budget/",
         "retrieved_date": "2026-02-07",
-        "notes": "Range depending on benefit package; replaces all current spending"
+        "notes": "Superintendent Reykdal's request: ~$1B special ed, $695M classified staff, $350M MSOC, remainder transportation & other gaps"
       },
       {
         "id": "3a-02",
         "category": "3A",
-        "data_point": "UHCC 2025 Annual Report to Legislature",
-        "value": "Latest commission report with cost modeling updates",
-        "year": "2025",
-        "source_name": "WA HCA",
-        "source_url": "https://www.hca.wa.gov/assets/program/universal-health-care-commission-annual-leg-report-2025.pdf",
+        "data_point": "WA special education annual funding shortfall",
+        "value": "$435 million/year gap between state funding and district spending",
+        "year": "2024",
+        "source_name": "North Central ESD / NCESD",
+        "source_url": "https://www.ncesd.org/news/special-education-funding/",
         "retrieved_date": "2026-02-07",
-        "notes": "Includes FTAC analysis and transition models"
+        "notes": "Districts cover shortfall with local levy dollars; recent cap increases close <$20M of gap"
       },
       {
         "id": "3a-03",
         "category": "3A",
-        "data_point": "UHCC 2024 Annual Report to Legislature",
-        "value": "2024 progress report",
-        "year": "2024",
-        "source_name": "WA HCA",
-        "source_url": "https://www.hca.wa.gov/assets/program/universal-health-care-commission-annual-report-20241101.pdf",
+        "data_point": "WA State PTA K-12 funding gap priorities",
+        "value": "Closing funding gaps in special ed, MSOC, transportation, and local effort assistance",
+        "year": "2025",
+        "source_name": "WA State PTA — Closing the Funding Gaps 2025-26",
+        "source_url": "https://www.wastatepta.org/wp-content/uploads/2025/02/Closing-the-Funding-Gaps-2025.pdf",
         "retrieved_date": "2026-02-07",
-        "notes": null
+        "notes": "Legislative priority brief corroborating ~$3.7-4B annual gap estimate"
       },
       {
         "id": "3a-04",
         "category": "3A",
-        "data_point": "Milliman actuarial cost analysis for WA universal HC",
-        "value": "Modeled 3 scenarios: Medicaid-like, PEBB-like, Cascade Care Silver",
-        "year": "2025",
-        "source_name": "Milliman",
-        "source_url": "https://www.milliman.com/en/insight/universal-health-care-system-population-benefit-scenarios",
+        "data_point": "WA K-12 share of state general fund declining",
+        "value": "From >50% (2019) to ~43% (2024)",
+        "year": "2024",
+        "source_name": "WA Budget & Policy Center",
+        "source_url": "https://budgetandpolicy.org/resources-tools/2025/03/BPC-Budget-Shortfall-Fact-Sheet.pdf",
         "retrieved_date": "2026-02-07",
-        "notes": "Independent actuarial analysis commissioned by HCA"
+        "notes": "K-12 funding not keeping pace with rising costs and enrollment needs"
       },
       {
         "id": "3a-05",
         "category": "3A",
-        "data_point": "UHCC Commission page",
-        "value": "Official commission homepage with all documents",
-        "year": "2025",
-        "source_name": "WA HCA",
-        "source_url": "https://www.hca.wa.gov/about-hca/who-we-are/universal-health-care-commission",
-        "retrieved_date": "2026-02-07",
-        "notes": "Central hub for all reports"
-      },
-      {
-        "id": "3a-06",
-        "category": "3A",
-        "data_point": "WA universal HC news coverage",
-        "value": "Commission plotting pathway to universal system",
-        "year": "2025",
-        "source_name": "KPQ News",
-        "source_url": "https://kpq.com/washington-state-commission-plots-pathway-toward-universal-health-care-system/",
-        "retrieved_date": "2026-02-07",
-        "notes": "Context and public discussion"
-      },
-      {
-        "id": "3a-07",
-        "category": "3A",
-        "data_point": "Key note: cost replaces existing spending",
-        "value": "Universal HC would replace current private+public spending, not add to it; requires new tax funding to replace premiums",
-        "year": "2025",
-        "source_name": "WA HCA / UHCC Reports",
-        "source_url": "https://www.hca.wa.gov/assets/program/universal-health-care-commission-annual-leg-report-2025.pdf",
-        "retrieved_date": "2026-02-07",
-        "notes": "Critical for simulator: net new funding = total cost minus current public spending"
-      },
-      {
-        "id": "3a-08",
-        "category": "3A",
-        "data_point": "WA per capita healthcare spending",
-        "value": "$10,989",
-        "year": "2020",
-        "source_name": "KFF State Health Facts / CMS",
-        "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/health-spending-per-capita/",
-        "retrieved_date": "2026-02-07",
-        "notes": "Most recent state-level CMS data; 2020 baseline"
-      },
-      {
-        "id": "3a-09",
-        "category": "3A",
-        "data_point": "US national per capita health spending",
-        "value": "$15,474",
+        "data_point": "OSPI K-12 budget request breakdown",
+        "value": "$1B special ed + $695M staff pay + $350M MSOC + transportation",
         "year": "2024",
-        "source_name": "CMS NHE Fact Sheet",
-        "source_url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+        "source_name": "FOX 13 Seattle / OSPI",
+        "source_url": "https://www.fox13seattle.com/news/wa-ospi-lawmakers-school-funding-shortfall-federal-waiver",
         "retrieved_date": "2026-02-07",
-        "notes": "Projected 2024; 18% of GDP"
-      },
-      {
-        "id": "3a-10",
-        "category": "3A",
-        "data_point": "WA estimated total healthcare spending (all payers)",
-        "value": "~$87-95 billion/year",
-        "year": "2024",
-        "source_name": "Derived: per capita x population",
-        "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/health-spending-per-capita/",
-        "retrieved_date": "2026-02-07",
-        "notes": "Rough estimate: $10,989 (2020) adjusted for growth x 7.96M pop; exact figure in HCA reports"
-      },
-      {
-        "id": "3a-11",
-        "category": "3A",
-        "data_point": "WA Health Care Cost Transparency Board 2024 report",
-        "value": "Total health care expenditure tracking and benchmarks",
-        "year": "2024",
-        "source_name": "WA HCA",
-        "source_url": "https://www.hca.wa.gov/assets/program/cost-board-2024-leg-report.pdf",
-        "retrieved_date": "2026-02-07",
-        "notes": "Official state cost tracking"
-      },
-      {
-        "id": "3a-12",
-        "category": "3A",
-        "data_point": "WA HCA spending growth report 2019-2022",
-        "value": "Detailed spending trends by payer",
-        "year": "2022",
-        "source_name": "WA HCA",
-        "source_url": "https://www.hca.wa.gov/assets/program/data-call-report-2024.pdf",
-        "retrieved_date": "2026-02-07",
-        "notes": "Data call report with growth analysis"
-      },
-      {
-        "id": "3a-13",
-        "category": "3A",
-        "data_point": "KFF National Health Spending Explorer",
-        "value": "Interactive tool for spending by payer, state",
-        "year": "2024",
-        "source_name": "Kaiser Family Foundation",
-        "source_url": "https://www.kff.org/interactive/health-spending-explorer/",
-        "retrieved_date": "2026-02-07",
-        "notes": "Useful for breakdowns"
+        "notes": "Detailed breakdown of the $3.7B request by category"
       }
     ],
     "3B": [
@@ -1458,6 +1378,186 @@
         "source_url": "https://www.americanprogress.org/data-view/early-learning-in-the-united-states/",
         "retrieved_date": "2026-02-07",
         "notes": "Current state spending ~$1.1B via Fair Start; gap ~$6B+"
+      }
+    ],
+    "5A": [
+      {
+        "id": "5a-01",
+        "category": "5A",
+        "data_point": "WA capital gains tax rate (standard)",
+        "value": "7% on long-term gains above $270K deduction",
+        "year": "2024",
+        "source_name": "WA Dept of Revenue",
+        "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+        "retrieved_date": "2026-02-07",
+        "notes": "Classified as excise tax; applies to stocks, bonds, business interests; excludes real estate and retirement"
+      },
+      {
+        "id": "5a-02",
+        "category": "5A",
+        "data_point": "WA capital gains tax FY2024 revenue",
+        "value": "$560.6 million (initial collections, 4,461 returns)",
+        "year": "2024",
+        "source_name": "WA Dept of Revenue News Release",
+        "source_url": "https://dor.wa.gov/about/news-releases/2025/tax-year-2024-initial-capital-gains-collections-exceed-5606-million",
+        "retrieved_date": "2026-02-07",
+        "notes": "Net payments as of June 2, 2025; 34% increase over FY2023 ($418.6M); 3,403 extensions pending"
+      },
+      {
+        "id": "5a-03",
+        "category": "5A",
+        "data_point": "WA capital gains tax deduction threshold",
+        "value": "$270,000 (inflation-adjusted annually)",
+        "year": "2024",
+        "source_name": "WA Dept of Revenue",
+        "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+        "retrieved_date": "2026-02-07",
+        "notes": "Standard deduction; only gains above this amount are taxed"
+      },
+      {
+        "id": "5a-04",
+        "category": "5A",
+        "data_point": "WA total long-term capital gains realized (all filers)",
+        "value": "~$17.8 billion",
+        "year": "2021",
+        "source_name": "IRS Statistics of Income (SOI) Table 2",
+        "source_url": "https://www.irs.gov/statistics/soi-tax-stats-historic-table-2",
+        "retrieved_date": "2026-02-07",
+        "notes": "Federal long-term capital gains reported by WA filers; includes gains exempt from state tax (real estate, retirement)"
+      },
+      {
+        "id": "5a-05",
+        "category": "5A",
+        "data_point": "WA capital gains tax FY2022 revenue (first year)",
+        "value": "$840.3 million",
+        "year": "2022",
+        "source_name": "WA Dept of Revenue News Release",
+        "source_url": "https://dor.wa.gov/about/news-releases/2025/tax-year-2024-initial-capital-gains-collections-exceed-5606-million",
+        "retrieved_date": "2026-02-07",
+        "notes": "First year of tax; higher due to market conditions"
+      },
+      {
+        "id": "5a-06",
+        "category": "5A",
+        "data_point": "WA capital gains tax FY2023 revenue",
+        "value": "$418.6 million",
+        "year": "2023",
+        "source_name": "WA Dept of Revenue / GeekWire",
+        "source_url": "https://www.geekwire.com/2025/washingtons-capital-gains-tax-collection-tops-560m-in-2024-up-34-from-previous-year/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Down from FY2022 due to market downturn; 34% below FY2024"
+      },
+      {
+        "id": "5a-07",
+        "category": "5A",
+        "data_point": "WA capital gains tax 2025 tier 2 rate",
+        "value": "9.9% on gains over $1M (above the $270K deduction)",
+        "year": "2025",
+        "source_name": "Perkins & Co",
+        "source_url": "https://perkinsaccounting.com/blog/2025-washington-state-tax-changes/",
+        "retrieved_date": "2026-02-07",
+        "notes": "New tier added in 2025 legislation; gains up to $1M remain at 7%"
+      },
+      {
+        "id": "5a-08",
+        "category": "5A",
+        "data_point": "Estimated WA state-taxable capital gains base",
+        "value": "~$8 billion (after exclusions and deduction)",
+        "year": "2024",
+        "source_name": "Derived from WA DOR revenue and IRS SOI",
+        "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+        "retrieved_date": "2026-02-07",
+        "notes": "Back-calculated: $560.6M revenue / 7% rate ≈ $8B taxable base; total gains ~$17.8B but real estate, retirement, sub-threshold gains excluded"
+      }
+    ],
+    "5B": [
+      {
+        "id": "5b-01",
+        "category": "5B",
+        "data_point": "WA DOR Wealth Tax Study — proposed rate and threshold",
+        "value": "1% on financial intangible property above $250M per household",
+        "year": "2024",
+        "source_name": "WA Dept of Revenue Wealth Tax Study Final Report",
+        "source_url": "https://dor.wa.gov/sites/default/files/2024-11/Wealth_Tax_Study_Final_Report.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Commissioned by WA Legislature; published November 2024"
+      },
+      {
+        "id": "5b-02",
+        "category": "5B",
+        "data_point": "WA DOR Wealth Tax Study — estimated annual revenue",
+        "value": "~$3 billion/year at 1% rate with $250M threshold",
+        "year": "2024",
+        "source_name": "WA Dept of Revenue Wealth Tax Study Final Report",
+        "source_url": "https://dor.wa.gov/sites/default/files/2024-11/Wealth_Tax_Study_Final_Report.pdf",
+        "retrieved_date": "2026-02-07",
+        "notes": "Estimated ~700 affected households; targets < 0.01% of Washingtonians"
+      },
+      {
+        "id": "5b-03",
+        "category": "5B",
+        "data_point": "WA DOR Wealth Tax Study — $100M threshold estimate",
+        "value": "~3,400 affected individuals at $100M threshold",
+        "year": "2024",
+        "source_name": "WA Cities / WA DOR Wealth Tax Study",
+        "source_url": "https://wacities.org/advocacy/News/advocacy-news/2025/01/13/work-session-on-wealth-tax-report",
+        "retrieved_date": "2026-02-07",
+        "notes": "Governor's alternative proposal; broader reach than $250M threshold"
+      },
+      {
+        "id": "5b-04",
+        "category": "5B",
+        "data_point": "WA residents with net worth over $50M",
+        "value": "~2,939 (up 42.6% from 2,060 in 2022)",
+        "year": "2024",
+        "source_name": "MyNorthwest / Henley & Partners",
+        "source_url": "https://mynorthwest.com/local/study-wealth-tax-washington/4081892",
+        "retrieved_date": "2026-02-07",
+        "notes": "Rapid growth in ultra-high-net-worth population in WA"
+      },
+      {
+        "id": "5b-05",
+        "category": "5B",
+        "data_point": "WA billionaires combined net worth",
+        "value": "~$340 billion (12-13 billionaires)",
+        "year": "2025",
+        "source_name": "Forbes Billionaires 2025 / Yahoo Finance",
+        "source_url": "https://finance.yahoo.com/news/washington-billionaires-richest-country-2025-120000601.html",
+        "retrieved_date": "2026-02-07",
+        "notes": "More than 4x the state's $78B two-year operating budget; Bezos moved to FL in 2023"
+      },
+      {
+        "id": "5b-06",
+        "category": "5B",
+        "data_point": "U.S. total household net worth",
+        "value": "$169.4 trillion",
+        "year": "2024",
+        "source_name": "Federal Reserve Financial Accounts (Z.1)",
+        "source_url": "https://fred.stlouisfed.org/series/BOGZ1FL192090005A",
+        "retrieved_date": "2026-02-07",
+        "notes": "End of 2024; top 1% holds ~$55.8T, top 10% holds ~67% of total"
+      },
+      {
+        "id": "5b-07",
+        "category": "5B",
+        "data_point": "WA estimated total household net worth",
+        "value": "~$5.25 trillion (3.1% of U.S. total)",
+        "year": "2024",
+        "source_name": "Derived from Fed Z.1 and BEA State GDP",
+        "source_url": "https://fred.stlouisfed.org/series/WANGSP",
+        "retrieved_date": "2026-02-07",
+        "notes": "Proportional estimate using WA GDP share ($785B / $25.5T national GDP); actual may be higher due to tech wealth concentration"
+      },
+      {
+        "id": "5b-08",
+        "category": "5B",
+        "data_point": "U.S. wealth distribution by percentile",
+        "value": "Top 1%: 33%, Top 10%: 67%, Bottom 50%: 6%",
+        "year": "2024",
+        "source_name": "Federal Reserve Distributional Financial Accounts",
+        "source_url": "https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/chart/",
+        "retrieved_date": "2026-02-07",
+        "notes": "Applied to WA estimate: top 1% ~$1.73T, top 10% ~$3.52T, bottom 50% ~$315B"
       }
     ]
   }
