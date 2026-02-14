@@ -22,7 +22,7 @@ function SourceLink({ source }: { source: { label: string; url: string } }) {
       href={source.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-blue-600 hover:text-blue-800 hover:underline"
+      className="text-civic-600 hover:text-civic-800 hover:underline"
     >
       {source.label} ↗
     </a>
@@ -92,8 +92,8 @@ export default function Simulator() {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-6">Tax Revenue Simulator</h1>
-      <p className="text-slate-600 mb-8">
+      <h1 className="text-3xl font-bold mb-2 text-civic-900">Tax Revenue Simulator</h1>
+      <p className="text-civic-600 mb-8">
         Adjust tax rates below to see how revenue changes and what programs
         Washington could fund.
       </p>
@@ -102,16 +102,16 @@ export default function Simulator() {
         {/* Tax Inputs */}
         <div className="space-y-6">
           {/* Income Tax */}
-          <section className="bg-white rounded-lg shadow p-6">
-            <h2 className="text-lg font-semibold mb-4 text-slate-800">
+          <section className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border-l-4 border-teal-500">
+            <h2 className="text-lg font-semibold mb-4 text-civic-800">
               Income Tax
             </h2>
-            <p className="text-xs text-slate-500 mb-3">
+            <p className="text-xs text-civic-500 mb-3">
               WA currently has no state income tax. Source:{" "}
               <SourceLink source={DATA_SOURCES.incomeDist} />
             </p>
             <label className="block mb-3">
-              <span className="text-sm font-medium text-slate-700">
+              <span className="text-sm font-medium text-civic-700">
                 Rate: {incomeTaxRate.toFixed(1)}%
               </span>
               <input
@@ -125,7 +125,7 @@ export default function Simulator() {
               />
             </label>
             <label className="block">
-              <span className="text-sm font-medium text-slate-700">
+              <span className="text-sm font-medium text-civic-700">
                 Threshold: ${incomeTaxThreshold.toLocaleString()}
               </span>
               <input
@@ -137,18 +137,18 @@ export default function Simulator() {
                 onChange={(e) => setIncomeTaxThreshold(Number(e.target.value))}
                 className="w-full mt-1"
               />
-              <span className="text-xs text-slate-500">
+              <span className="text-xs text-civic-500">
                 Income above this amount is taxed
               </span>
             </label>
           </section>
 
           {/* Capital Gains Tax */}
-          <section className="bg-white rounded-lg shadow p-6">
-            <h2 className="text-lg font-semibold mb-4 text-slate-800">
+          <section className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border-l-4 border-teal-500">
+            <h2 className="text-lg font-semibold mb-4 text-civic-800">
               Capital Gains Tax
             </h2>
-            <p className="text-xs text-slate-500 mb-3">
+            <p className="text-xs text-civic-500 mb-3">
               Current rate: {WA_CURRENT_RATES.capitalGainsTaxRate}% above $
               {WA_CURRENT_RATES.capitalGainsThreshold.toLocaleString()}{" "}
               deduction (FY2024 revenue:{" "}
@@ -158,7 +158,7 @@ export default function Simulator() {
               ). Source: <SourceLink source={DATA_SOURCES.capitalGainsRevenue} />
             </p>
             <label className="block mb-3">
-              <span className="text-sm font-medium text-slate-700">
+              <span className="text-sm font-medium text-civic-700">
                 Rate: {capitalGainsTaxRate.toFixed(1)}%
               </span>
               <input
@@ -174,7 +174,7 @@ export default function Simulator() {
               />
             </label>
             <label className="block">
-              <span className="text-sm font-medium text-slate-700">
+              <span className="text-sm font-medium text-civic-700">
                 Threshold: ${capitalGainsThreshold.toLocaleString()}
               </span>
               <input
@@ -188,24 +188,24 @@ export default function Simulator() {
                 }
                 className="w-full mt-1"
               />
-              <span className="text-xs text-slate-500">
+              <span className="text-xs text-civic-500">
                 Capital gains above this amount are taxed
               </span>
             </label>
           </section>
 
           {/* Sales Tax */}
-          <section className="bg-white rounded-lg shadow p-6">
-            <h2 className="text-lg font-semibold mb-4 text-slate-800">
+          <section className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border-l-4 border-teal-500">
+            <h2 className="text-lg font-semibold mb-4 text-civic-800">
               Sales Tax
             </h2>
-            <p className="text-xs text-slate-500 mb-3">
+            <p className="text-xs text-civic-500 mb-3">
               Current state rate: {WA_CURRENT_RATES.salesTaxRate}% (FY2024
               revenue: {formatBillions(WA_CURRENT_REVENUE.salesTaxRevenueBillions)}).
               Source: <SourceLink source={DATA_SOURCES.salesTax} />
             </p>
             <label className="block">
-              <span className="text-sm font-medium text-slate-700">
+              <span className="text-sm font-medium text-civic-700">
                 Rate: {salesTaxRate.toFixed(1)}%
               </span>
               <input
@@ -221,18 +221,18 @@ export default function Simulator() {
           </section>
 
           {/* Property Tax */}
-          <section className="bg-white rounded-lg shadow p-6">
-            <h2 className="text-lg font-semibold mb-4 text-slate-800">
+          <section className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border-l-4 border-teal-500">
+            <h2 className="text-lg font-semibold mb-4 text-civic-800">
               Property Tax
             </h2>
-            <p className="text-xs text-slate-500 mb-3">
+            <p className="text-xs text-civic-500 mb-3">
               Current state levy: ${WA_CURRENT_RATES.propertyTaxRate.toFixed(2)} per
               $1,000 assessed value (FY2024 revenue:{" "}
               {formatBillions(WA_CURRENT_REVENUE.propertyTaxRevenueBillions)}).
               Source: <SourceLink source={DATA_SOURCES.propertyTax} />
             </p>
             <label className="block">
-              <span className="text-sm font-medium text-slate-700">
+              <span className="text-sm font-medium text-civic-700">
                 Rate: ${propertyTaxRate.toFixed(2)} / $1,000
               </span>
               <input
@@ -248,17 +248,17 @@ export default function Simulator() {
           </section>
 
           {/* Wealth Tax */}
-          <section className="bg-white rounded-lg shadow p-6">
-            <h2 className="text-lg font-semibold mb-4 text-slate-800">
+          <section className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border-l-4 border-teal-500">
+            <h2 className="text-lg font-semibold mb-4 text-civic-800">
               Wealth Tax
             </h2>
-            <p className="text-xs text-slate-500 mb-3">
+            <p className="text-xs text-civic-500 mb-3">
               WA currently has no wealth tax. DOR study (2024): 1% at $250M
               threshold → ~$3B/yr from ~700 households. Source:{" "}
               <SourceLink source={DATA_SOURCES.wealthTax} />
             </p>
             <label className="block mb-3">
-              <span className="text-sm font-medium text-slate-700">
+              <span className="text-sm font-medium text-civic-700">
                 Rate: {wealthTaxRate.toFixed(2)}%
               </span>
               <input
@@ -272,7 +272,7 @@ export default function Simulator() {
               />
             </label>
             <label className="block">
-              <span className="text-sm font-medium text-slate-700">
+              <span className="text-sm font-medium text-civic-700">
                 Threshold:{" "}
                 {wealthTaxThreshold >= 1_000_000_000
                   ? `$${(wealthTaxThreshold / 1_000_000_000).toFixed(1)}B`
@@ -289,7 +289,7 @@ export default function Simulator() {
                 }
                 className="w-full mt-1"
               />
-              <span className="text-xs text-slate-500">
+              <span className="text-xs text-civic-500">
                 Net worth above this amount is taxed annually
               </span>
             </label>
@@ -298,38 +298,38 @@ export default function Simulator() {
 
         {/* Revenue Results */}
         <div className="space-y-6">
-          <section className="bg-white rounded-lg shadow p-6">
-            <h2 className="text-lg font-semibold mb-4 text-slate-800">
+          <section className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border-l-4 border-teal-500">
+            <h2 className="text-lg font-semibold mb-4 text-civic-800">
               Revenue Summary
             </h2>
             <dl className="space-y-3 text-sm">
               <div className="flex justify-between">
-                <dt className="text-slate-600">Income Tax Revenue</dt>
+                <dt className="text-civic-600">Income Tax Revenue</dt>
                 <dd className="font-medium">{formatBillions(incomeTaxRevenue)}</dd>
               </div>
               <div className="flex justify-between">
-                <dt className="text-slate-600">Capital Gains Tax Revenue</dt>
+                <dt className="text-civic-600">Capital Gains Tax Revenue</dt>
                 <dd className="font-medium">
                   {formatBillions(capitalGainsTaxRevenue)}
                 </dd>
               </div>
               <div className="flex justify-between">
-                <dt className="text-slate-600">Sales Tax Revenue</dt>
+                <dt className="text-civic-600">Sales Tax Revenue</dt>
                 <dd className="font-medium">{formatBillions(salesTaxRevenue)}</dd>
               </div>
               <div className="flex justify-between">
-                <dt className="text-slate-600">Property Tax Revenue</dt>
+                <dt className="text-civic-600">Property Tax Revenue</dt>
                 <dd className="font-medium">
                   {formatBillions(propertyTaxRevenue)}
                 </dd>
               </div>
               <div className="flex justify-between">
-                <dt className="text-slate-600">Wealth Tax Revenue</dt>
+                <dt className="text-civic-600">Wealth Tax Revenue</dt>
                 <dd className="font-medium">
                   {formatBillions(wealthTaxRevenue)}
                 </dd>
               </div>
-              <hr className="border-slate-200" />
+              <hr className="border-civic-200" />
               <div className="flex justify-between text-base font-semibold">
                 <dt>Total Revenue</dt>
                 <dd>{formatBillions(totalRevenue)}</dd>
@@ -339,15 +339,15 @@ export default function Simulator() {
 
           <section
             className={`rounded-lg shadow p-6 ${
-              revenueChange >= 0 ? "bg-green-50" : "bg-red-50"
+              revenueChange >= 0 ? "bg-teal-50" : "bg-red-50"
             }`}
           >
-            <h2 className="text-lg font-semibold mb-4 text-slate-800">
+            <h2 className="text-lg font-semibold mb-4 text-civic-800">
               Change from Current System
             </h2>
             <p
               className={`text-2xl font-bold ${
-                revenueChange >= 0 ? "text-green-700" : "text-red-700"
+                revenueChange >= 0 ? "text-teal-700" : "text-red-700"
               }`}
             >
               {revenueChange >= 0 ? "+" : ""}
@@ -355,53 +355,53 @@ export default function Simulator() {
             </p>
           </section>
 
-          <section className="bg-white rounded-lg shadow p-6">
-            <h2 className="text-lg font-semibold mb-4 text-slate-800">
+          <section className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border-l-4 border-teal-500">
+            <h2 className="text-lg font-semibold mb-4 text-civic-800">
               Program Funding Impact
             </h2>
             <div className="space-y-4">
               <div>
                 <div className="flex justify-between text-sm mb-1">
-                  <span className="text-slate-600">Fully Funding K-12</span>
+                  <span className="text-civic-600">Fully Funding K-12</span>
                   <span className="font-medium">
                     {k12Pct >= 0 ? "+" : ""}
                     {k12Pct.toFixed(1)}%
                   </span>
                 </div>
-                <div className="w-full bg-slate-200 rounded-full h-2">
+                <div className="w-full bg-civic-100 rounded-full h-2">
                   <div
                     className={`h-2 rounded-full transition-all ${
-                      k12Pct >= 0 ? "bg-green-500" : "bg-red-500"
+                      k12Pct >= 0 ? "bg-teal-500" : "bg-red-500"
                     }`}
                     style={{
                       width: `${Math.min(100, Math.max(0, k12Pct))}%`,
                     }}
                   />
                 </div>
-                <p className="text-xs text-slate-500 mt-1">
+                <p className="text-xs text-civic-500 mt-1">
                   Est. gap: {formatBillions(WA_PROGRAM_COSTS.fullyFundK12Billions)} / year
                   — <SourceLink source={DATA_SOURCES.k12} />
                 </p>
               </div>
               <div>
                 <div className="flex justify-between text-sm mb-1">
-                  <span className="text-slate-600">Universal Childcare</span>
+                  <span className="text-civic-600">Universal Childcare</span>
                   <span className="font-medium">
                     {childcarePct >= 0 ? "+" : ""}
                     {childcarePct.toFixed(1)}%
                   </span>
                 </div>
-                <div className="w-full bg-slate-200 rounded-full h-2">
+                <div className="w-full bg-civic-100 rounded-full h-2">
                   <div
                     className={`h-2 rounded-full transition-all ${
-                      childcarePct >= 0 ? "bg-green-500" : "bg-red-500"
+                      childcarePct >= 0 ? "bg-teal-500" : "bg-red-500"
                     }`}
                     style={{
                       width: `${Math.min(100, Math.max(0, childcarePct))}%`,
                     }}
                   />
                 </div>
-                <p className="text-xs text-slate-500 mt-1">
+                <p className="text-xs text-civic-500 mt-1">
                   Est. cost: {formatBillions(WA_PROGRAM_COSTS.universalChildcareBillions)} / year
                   — <SourceLink source={DATA_SOURCES.childcare} />
                 </p>

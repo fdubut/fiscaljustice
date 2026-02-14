@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Balanced scale icon representing fiscal justice -->
+  <!-- Base/pedestal -->
+  <rect x="22" y="54" width="20" height="6" rx="2" fill="#133E5E"/>
+  <rect x="28" y="16" width="8" height="40" rx="2" fill="#1A4F74"/>
+  <!-- Beam -->
+  <rect x="6" y="12" width="52" height="5" rx="2.5" fill="#133E5E"/>
+  <!-- Left pan -->
+  <line x1="14" y1="17" x2="14" y2="30" stroke="#1A4F74" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M4 30 Q14 40 24 30" fill="#D4A017" stroke="#B8860B" stroke-width="1.5"/>
+  <!-- Right pan -->
+  <line x1="50" y1="17" x2="50" y2="30" stroke="#1A4F74" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M40 30 Q50 40 60 30" fill="#D4A017" stroke="#B8860B" stroke-width="1.5"/>
+  <!-- Center circle -->
+  <circle cx="32" cy="14" r="6" fill="#D4A017" stroke="#133E5E" stroke-width="2"/>
+</svg>

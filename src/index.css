@@ -1,1 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Inter:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --color-civic-900: #0C2D48;
+  --color-civic-800: #133E5E;
+  --color-civic-700: #1A4F74;
+  --color-civic-600: #21608A;
+  --color-civic-500: #2878A6;
+  --color-civic-400: #4A9BC4;
+  --color-civic-300: #7FBDD9;
+  --color-civic-200: #B3DCEC;
+  --color-civic-100: #E0F0F7;
+  --color-civic-50: #F0F7FA;
+
+  --color-teal-900: #0F3D2E;
+  --color-teal-800: #145A3E;
+  --color-teal-700: #1B6B4A;
+  --color-teal-600: #22805A;
+  --color-teal-500: #2A9D6E;
+  --color-teal-400: #4DB88A;
+  --color-teal-300: #7DD3A8;
+  --color-teal-200: #B0E8CB;
+  --color-teal-100: #DCFAE8;
+  --color-teal-50: #F0F7F4;
+
+  --color-accent-600: #B8860B;
+  --color-accent-500: #D4A017;
+  --color-accent-400: #E8B931;
+  --color-accent-300: #F0D060;
+  --color-accent-200: #F7E49A;
+  --color-accent-100: #FBF2D0;
+  --color-accent-50: #FEFAEB;
+
+  --font-heading: "Merriweather", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
