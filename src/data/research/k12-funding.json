@@ -1,0 +1,67 @@
+{
+  "category": "k12-funding",
+  "title": "K-12 Education Funding",
+  "description": "K-12 funding gap analysis and OSPI budget needs for Washington schools",
+  "data": [
+    {
+      "id": "k12-funding-01",
+      "data_point": "WA K-12 annual funding gap (OSPI estimate)",
+      "value": "$3.7 billion/year",
+      "numeric_value": 3.7,
+      "unit": "billions_usd",
+      "year": "2024",
+      "source_name": "OSPI 2025-27 Budget Request / WA State Standard",
+      "source_url": "https://washingtonstatestandard.com/2024/09/17/reykdal-seeks-3b-injection-for-wa-public-schools-in-next-budget/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Superintendent Reykdal's request: ~$1B special ed, $695M classified staff, $350M MSOC, remainder transportation & other gaps"
+    },
+    {
+      "id": "k12-funding-02",
+      "data_point": "WA special education annual funding shortfall",
+      "value": "$435 million/year gap between state funding and district spending",
+      "numeric_value": 435,
+      "unit": "millions_usd",
+      "year": "2024",
+      "source_name": "North Central ESD / NCESD",
+      "source_url": "https://www.ncesd.org/news/special-education-funding/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Districts cover shortfall with local levy dollars; recent cap increases close <$20M of gap"
+    },
+    {
+      "id": "k12-funding-03",
+      "data_point": "WA State PTA K-12 funding gap priorities",
+      "value": "Closing funding gaps in special ed, MSOC, transportation, and local effort assistance",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2025",
+      "source_name": "WA State PTA — Closing the Funding Gaps 2025-26",
+      "source_url": "https://www.wastatepta.org/wp-content/uploads/2025/02/Closing-the-Funding-Gaps-2025.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "Legislative priority brief corroborating ~$3.7-4B annual gap estimate"
+    },
+    {
+      "id": "k12-funding-04",
+      "data_point": "WA K-12 share of state general fund declining",
+      "value": "From >50% (2019) to ~43% (2024)",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA Budget & Policy Center",
+      "source_url": "https://budgetandpolicy.org/resources-tools/2025/03/BPC-Budget-Shortfall-Fact-Sheet.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "K-12 funding not keeping pace with rising costs and enrollment needs"
+    },
+    {
+      "id": "k12-funding-05",
+      "data_point": "OSPI K-12 budget request breakdown",
+      "value": "$1B special ed + $695M staff pay + $350M MSOC + transportation",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "FOX 13 Seattle / OSPI",
+      "source_url": "https://www.fox13seattle.com/news/wa-ospi-lawmakers-school-funding-shortfall-federal-waiver",
+      "retrieved_date": "2026-02-07",
+      "notes": "Detailed breakdown of the $3.7B request by category"
+    }
+  ]
+}

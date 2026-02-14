@@ -1,0 +1,103 @@
+{
+  "category": "property-tax-base",
+  "title": "Property Tax Base",
+  "description": "Assessed property values, levy rates, and property tax mechanics in Washington",
+  "data": [
+    {
+      "id": "property-tax-base-01",
+      "data_point": "WA total assessed property value (statewide)",
+      "value": "$833,036,264,377 (~$833 billion)",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "King County Assessor / WA DOR",
+      "source_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/assessor/buildings-property/reports/annual-reports/2024/tax-stats/24staterealprop.ashx",
+      "retrieved_date": "2026-02-07",
+      "notes": "All taxable property statewide"
+    },
+    {
+      "id": "property-tax-base-02",
+      "data_point": "WA state property tax levy rate - Part 1 (School Fund)",
+      "value": "$1.63842 per $1,000",
+      "numeric_value": 1.63842,
+      "unit": "rate_per_1000",
+      "year": "2024",
+      "source_name": "WA DOR Property Tax Statistics",
+      "source_url": "https://dor.wa.gov/about/statistics-reports/property-tax-statistics/property-tax-statistics-2024",
+      "retrieved_date": "2026-02-07",
+      "notes": "State School Fund Part 1"
+    },
+    {
+      "id": "property-tax-base-03",
+      "data_point": "WA state property tax levy rate - Part 2 (McCleary)",
+      "value": "$0.87909 per $1,000",
+      "numeric_value": 0.87909,
+      "unit": "rate_per_1000",
+      "year": "2024",
+      "source_name": "WA DOR Property Tax Statistics",
+      "source_url": "https://dor.wa.gov/about/statistics-reports/property-tax-statistics/property-tax-statistics-2024",
+      "retrieved_date": "2026-02-07",
+      "notes": "State School Fund Part 2"
+    },
+    {
+      "id": "property-tax-base-04",
+      "data_point": "WA total state property tax levy rate",
+      "value": "$2.51751 per $1,000",
+      "numeric_value": 2.51751,
+      "unit": "rate_per_1000",
+      "year": "2024",
+      "source_name": "WA DOR Property Tax Statistics",
+      "source_url": "https://dor.wa.gov/about/statistics-reports/property-tax-statistics/property-tax-statistics-2024",
+      "retrieved_date": "2026-02-07",
+      "notes": "Sum of Part 1 + Part 2"
+    },
+    {
+      "id": "property-tax-base-05",
+      "data_point": "WA state property tax revenue",
+      "value": "$2.71 billion",
+      "numeric_value": 2.71,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "10% of General Fund; state levy only"
+    },
+    {
+      "id": "property-tax-base-06",
+      "data_point": "WA DOR Property Tax Statistics 2024",
+      "value": "Full statistical report",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA DOR",
+      "source_url": "https://dor.wa.gov/about/statistics-reports/property-tax-statistics/property-tax-statistics-2024",
+      "retrieved_date": "2026-02-07",
+      "notes": "Primary source for all property tax data"
+    },
+    {
+      "id": "property-tax-base-07",
+      "data_point": "WA DOR property tax interactive data",
+      "value": "Historical values, rates, and inflation",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA DOR",
+      "source_url": "https://dor.wa.gov/about/statistics-reports/interactive-data/property-tax-history-values-rates-and-inflation-interactive-data-graphic",
+      "retrieved_date": "2026-02-07",
+      "notes": "Good for trends"
+    },
+    {
+      "id": "property-tax-base-08",
+      "data_point": "MRSC Property Tax Basics",
+      "value": "Explanation of WA budget-based property tax system",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "MRSC",
+      "source_url": "https://mrsc.org/explore-topics/finance/revenues/property-tax",
+      "retrieved_date": "2026-02-07",
+      "notes": "Rates adjust based on revenue needs vs valuations"
+    }
+  ]
+}

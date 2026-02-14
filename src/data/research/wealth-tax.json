@@ -1,0 +1,103 @@
+{
+  "category": "wealth-tax",
+  "title": "Wealth Tax",
+  "description": "WA DOR wealth tax study findings, proposed structure, and revenue estimates",
+  "data": [
+    {
+      "id": "wealth-tax-01",
+      "data_point": "WA DOR Wealth Tax Study — proposed rate and threshold",
+      "value": "1% on financial intangible property above $250M per household",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA Dept of Revenue Wealth Tax Study Final Report",
+      "source_url": "https://dor.wa.gov/sites/default/files/2024-11/Wealth_Tax_Study_Final_Report.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "Commissioned by WA Legislature; published November 2024"
+    },
+    {
+      "id": "wealth-tax-02",
+      "data_point": "WA DOR Wealth Tax Study — estimated annual revenue",
+      "value": "~$3 billion/year at 1% rate with $250M threshold",
+      "numeric_value": 3,
+      "unit": "billions_usd",
+      "year": "2024",
+      "source_name": "WA Dept of Revenue Wealth Tax Study Final Report",
+      "source_url": "https://dor.wa.gov/sites/default/files/2024-11/Wealth_Tax_Study_Final_Report.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "Estimated ~700 affected households; targets < 0.01% of Washingtonians"
+    },
+    {
+      "id": "wealth-tax-03",
+      "data_point": "WA DOR Wealth Tax Study — $100M threshold estimate",
+      "value": "~3,400 affected individuals at $100M threshold",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA Cities / WA DOR Wealth Tax Study",
+      "source_url": "https://wacities.org/advocacy/News/advocacy-news/2025/01/13/work-session-on-wealth-tax-report",
+      "retrieved_date": "2026-02-07",
+      "notes": "Governor's alternative proposal; broader reach than $250M threshold"
+    },
+    {
+      "id": "wealth-tax-04",
+      "data_point": "WA residents with net worth over $50M",
+      "value": "~2,939 (up 42.6% from 2,060 in 2022)",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "MyNorthwest / Henley & Partners",
+      "source_url": "https://mynorthwest.com/local/study-wealth-tax-washington/4081892",
+      "retrieved_date": "2026-02-07",
+      "notes": "Rapid growth in ultra-high-net-worth population in WA"
+    },
+    {
+      "id": "wealth-tax-05",
+      "data_point": "WA billionaires combined net worth",
+      "value": "~$340 billion (12-13 billionaires)",
+      "numeric_value": 340,
+      "unit": "billions_usd",
+      "year": "2025",
+      "source_name": "Forbes Billionaires 2025 / Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/news/washington-billionaires-richest-country-2025-120000601.html",
+      "retrieved_date": "2026-02-07",
+      "notes": "More than 4x the state's $78B two-year operating budget; Bezos moved to FL in 2023"
+    },
+    {
+      "id": "wealth-tax-06",
+      "data_point": "U.S. total household net worth",
+      "value": "$169.4 trillion",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "Federal Reserve Financial Accounts (Z.1)",
+      "source_url": "https://fred.stlouisfed.org/series/BOGZ1FL192090005A",
+      "retrieved_date": "2026-02-07",
+      "notes": "End of 2024; top 1% holds ~$55.8T, top 10% holds ~67% of total"
+    },
+    {
+      "id": "wealth-tax-07",
+      "data_point": "WA estimated total household net worth",
+      "value": "~$5.25 trillion (3.1% of U.S. total)",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "Derived from Fed Z.1 and BEA State GDP",
+      "source_url": "https://fred.stlouisfed.org/series/WANGSP",
+      "retrieved_date": "2026-02-07",
+      "notes": "Proportional estimate using WA GDP share ($785B / $25.5T national GDP); actual may be higher due to tech wealth concentration"
+    },
+    {
+      "id": "wealth-tax-08",
+      "data_point": "U.S. wealth distribution by percentile",
+      "value": "Top 1%: 33%, Top 10%: 67%, Bottom 50%: 6%",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "Federal Reserve Distributional Financial Accounts",
+      "source_url": "https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/chart/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Applied to WA estimate: top 1% ~$1.73T, top 10% ~$3.52T, bottom 50% ~$315B"
+    }
+  ]
+}

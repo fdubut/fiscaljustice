@@ -1,6 +1,6 @@
 /**
  * Washington State fiscal data — sourced from real-world public data.
- * All data retrieved 2026-02-07. See src/data/research-data.json for full citations.
+ * All data retrieved 2026-02-07. See src/data/research/ for full citations.
  */
 
 export const WA_CURRENT_RATES = {

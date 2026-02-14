@@ -1,0 +1,123 @@
+{
+  "category": "childcare-costs",
+  "title": "Childcare Costs",
+  "description": "Childcare costs, affordability, access, and workforce impact in Washington",
+  "data": [
+    {
+      "id": "childcare-costs-01",
+      "data_point": "WA avg annual infant center care cost",
+      "value": "$19,500–$21,348",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024-25",
+      "source_name": "Child Care Aware of America",
+      "source_url": "https://info.childcareaware.org/hubfs/Pricing%20and%20Landscape%20Infograms/Pricing%20Sheets%20PDF/2024-2025-price-fact-sheet-child-care-affordability-Washington.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "Licensed center; Seattle metro higher"
+    },
+    {
+      "id": "childcare-costs-02",
+      "data_point": "WA avg annual toddler center care cost",
+      "value": "$16,000–$19,236",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024-25",
+      "source_name": "Child Care Aware of America",
+      "source_url": "https://info.childcareaware.org/hubfs/Pricing%20and%20Landscape%20Infograms/Pricing%20Sheets%20PDF/2024-2025-price-fact-sheet-child-care-affordability-Washington.pdf",
+      "retrieved_date": "2026-02-07"
+    },
+    {
+      "id": "childcare-costs-03",
+      "data_point": "WA avg annual preschool center care cost",
+      "value": "$14,500–$16,000",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024-25",
+      "source_name": "Child Care Aware of America",
+      "source_url": "https://info.childcareaware.org/hubfs/Pricing%20and%20Landscape%20Infograms/Pricing%20Sheets%20PDF/2024-2025-price-fact-sheet-child-care-affordability-Washington.pdf",
+      "retrieved_date": "2026-02-07"
+    },
+    {
+      "id": "childcare-costs-04",
+      "data_point": "WA avg annual family child care (in-home) cost",
+      "value": "~$13,000–$16,200",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024-25",
+      "source_name": "Child Care Aware of America",
+      "source_url": "https://info.childcareaware.org/hubfs/Pricing%20and%20Landscape%20Infograms/Pricing%20Sheets%20PDF/2024-2025-price-fact-sheet-child-care-affordability-Washington.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "Varies by age"
+    },
+    {
+      "id": "childcare-costs-05",
+      "data_point": "WA infant care as % of median income (married)",
+      "value": "~15%",
+      "numeric_value": 15,
+      "unit": "percent",
+      "year": "2024-25",
+      "source_name": "Child Care Aware of America",
+      "source_url": "https://info.childcareaware.org/hubfs/Pricing%20and%20Landscape%20Infograms/Pricing%20Sheets%20PDF/2024-2025-price-fact-sheet-child-care-affordability-Washington.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "Federal benchmark is 7%; >50% for single parents"
+    },
+    {
+      "id": "childcare-costs-06",
+      "data_point": "WA ranks top 5 nationally for childcare cost",
+      "value": "Among most expensive states for infant/toddler care",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "World Population Review",
+      "source_url": "https://worldpopulationreview.com/state-rankings/child-care-costs-by-state",
+      "retrieved_date": "2026-02-07"
+    },
+    {
+      "id": "childcare-costs-07",
+      "data_point": "WA DCYF 2024 Market Rate Study",
+      "value": "Full report on childcare market rates by region/age",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA DCYF",
+      "source_url": "https://dcyf.wa.gov/sites/default/files/pdf/reports/ChildCareMarketRateStudy2024.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "Primary state source for childcare costs"
+    },
+    {
+      "id": "childcare-costs-08",
+      "data_point": "WA DCYF Cost of Quality Study (summary)",
+      "value": "Market rate study summary report",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA DCYF",
+      "source_url": "https://dcyf.wa.gov/sites/default/files/pdf/ChildCareMarketRateStudySummaryReport.pdf",
+      "retrieved_date": "2026-02-07"
+    },
+    {
+      "id": "childcare-costs-09",
+      "data_point": "Child Care Aware WA data & statistics portal",
+      "value": "State childcare data and advocacy",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "Child Care Aware WA",
+      "source_url": "https://childcareawarewa.org/data-advocacy/child-care-data-statistics/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Includes desert data, supply stats"
+    },
+    {
+      "id": "childcare-costs-10",
+      "data_point": "Infant care costs more than in-state college tuition in WA",
+      "value": "By over $8,000/year",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "Economic Policy Institute",
+      "source_url": "https://www.epi.org/press/updated-resource-calculates-the-cost-of-child-care-in-every-state-child-care-is-more-expensive-than-public-college-tuition-in-38-states-and-washington-d-c/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Powerful comparison for intro page"
+    }
+  ]
+}

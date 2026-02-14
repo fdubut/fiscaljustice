@@ -1,0 +1,103 @@
+{
+  "category": "capital-gains-tax",
+  "title": "Capital Gains Tax",
+  "description": "Washington capital gains excise tax structure, revenue, and distribution",
+  "data": [
+    {
+      "id": "capital-gains-tax-01",
+      "data_point": "WA capital gains tax rate (standard)",
+      "value": "7% on long-term gains above $270K deduction",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA Dept of Revenue",
+      "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+      "retrieved_date": "2026-02-07",
+      "notes": "Classified as excise tax; applies to stocks, bonds, business interests; excludes real estate and retirement"
+    },
+    {
+      "id": "capital-gains-tax-02",
+      "data_point": "WA capital gains tax FY2024 revenue",
+      "value": "$560.6 million (initial collections, 4,461 returns)",
+      "numeric_value": 560.6,
+      "unit": "millions_usd",
+      "year": "2024",
+      "source_name": "WA Dept of Revenue News Release",
+      "source_url": "https://dor.wa.gov/about/news-releases/2025/tax-year-2024-initial-capital-gains-collections-exceed-5606-million",
+      "retrieved_date": "2026-02-07",
+      "notes": "Net payments as of June 2, 2025; 34% increase over FY2023 ($418.6M); 3,403 extensions pending"
+    },
+    {
+      "id": "capital-gains-tax-03",
+      "data_point": "WA capital gains tax deduction threshold",
+      "value": "$270,000 (inflation-adjusted annually)",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA Dept of Revenue",
+      "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+      "retrieved_date": "2026-02-07",
+      "notes": "Standard deduction; only gains above this amount are taxed"
+    },
+    {
+      "id": "capital-gains-tax-04",
+      "data_point": "WA total long-term capital gains realized (all filers)",
+      "value": "~$17.8 billion",
+      "numeric_value": 17.8,
+      "unit": "billions_usd",
+      "year": "2021",
+      "source_name": "IRS Statistics of Income (SOI) Table 2",
+      "source_url": "https://www.irs.gov/statistics/soi-tax-stats-historic-table-2",
+      "retrieved_date": "2026-02-07",
+      "notes": "Federal long-term capital gains reported by WA filers; includes gains exempt from state tax (real estate, retirement)"
+    },
+    {
+      "id": "capital-gains-tax-05",
+      "data_point": "WA capital gains tax FY2022 revenue (first year)",
+      "value": "$840.3 million",
+      "numeric_value": 840.3,
+      "unit": "millions_usd",
+      "year": "2022",
+      "source_name": "WA Dept of Revenue News Release",
+      "source_url": "https://dor.wa.gov/about/news-releases/2025/tax-year-2024-initial-capital-gains-collections-exceed-5606-million",
+      "retrieved_date": "2026-02-07",
+      "notes": "First year of tax; higher due to market conditions"
+    },
+    {
+      "id": "capital-gains-tax-06",
+      "data_point": "WA capital gains tax FY2023 revenue",
+      "value": "$418.6 million",
+      "numeric_value": 418.6,
+      "unit": "millions_usd",
+      "year": "2023",
+      "source_name": "WA Dept of Revenue / GeekWire",
+      "source_url": "https://www.geekwire.com/2025/washingtons-capital-gains-tax-collection-tops-560m-in-2024-up-34-from-previous-year/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Down from FY2022 due to market downturn; 34% below FY2024"
+    },
+    {
+      "id": "capital-gains-tax-07",
+      "data_point": "WA capital gains tax 2025 tier 2 rate",
+      "value": "9.9% on gains over $1M (above the $270K deduction)",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2025",
+      "source_name": "Perkins & Co",
+      "source_url": "https://perkinsaccounting.com/blog/2025-washington-state-tax-changes/",
+      "retrieved_date": "2026-02-07",
+      "notes": "New tier added in 2025 legislation; gains up to $1M remain at 7%"
+    },
+    {
+      "id": "capital-gains-tax-08",
+      "data_point": "Estimated WA state-taxable capital gains base",
+      "value": "~$8 billion (after exclusions and deduction)",
+      "numeric_value": 8,
+      "unit": "billions_usd",
+      "year": "2024",
+      "source_name": "Derived from WA DOR revenue and IRS SOI",
+      "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+      "retrieved_date": "2026-02-07",
+      "notes": "Back-calculated: $560.6M revenue / 7% rate ≈ $8B taxable base; total gains ~$17.8B but real estate, retirement, sub-threshold gains excluded"
+    }
+  ]
+}

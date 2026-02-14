@@ -1,0 +1,127 @@
+{
+  "category": "sales-tax-base",
+  "title": "Sales Tax Base",
+  "description": "Taxable retail sales volume and sales tax revenue details for Washington",
+  "data": [
+    {
+      "id": "sales-tax-base-01",
+      "data_point": "WA Q4 2024 taxable retail sales",
+      "value": "$61.3 billion",
+      "numeric_value": 61.3,
+      "unit": "billions_usd",
+      "year": "Q4 2024",
+      "source_name": "WA DOR News Release",
+      "source_url": "https://dor.wa.gov/about/news-releases/2025/retail-sales-increase-314-fourth-quarter-2024",
+      "retrieved_date": "2026-02-07",
+      "notes": "3.14% increase over Q4 2023"
+    },
+    {
+      "id": "sales-tax-base-02",
+      "data_point": "WA state sales tax revenue (annual)",
+      "value": "$13.07 billion",
+      "numeric_value": 13.07,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "State portion only; 48.2% of General Fund"
+    },
+    {
+      "id": "sales-tax-base-03",
+      "data_point": "WA state sales tax rate",
+      "value": "6.5%",
+      "numeric_value": 6.5,
+      "unit": "percent",
+      "year": "2025",
+      "source_name": "WA DOR",
+      "source_url": "https://dor.wa.gov/taxes-rates/sales-use-tax-rates",
+      "retrieved_date": "2026-02-07",
+      "notes": "Base state rate"
+    },
+    {
+      "id": "sales-tax-base-04",
+      "data_point": "WA DOR Quarterly Business Review Q4 2024",
+      "value": "Full quarterly data with tables by industry/location",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "Q4 2024",
+      "source_name": "WA DOR",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-06/Q424QBR.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "Tables 3A/4A/6 have detailed breakdowns"
+    },
+    {
+      "id": "sales-tax-base-05",
+      "data_point": "WA DOR Statewide Taxable Retail Sales tool",
+      "value": "Interactive reporting tool",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA DOR",
+      "source_url": "https://apps.dor.wa.gov/ResearchStats/Content/TaxableRetailSalesState/Report.aspx",
+      "retrieved_date": "2026-02-07",
+      "notes": "Can query annual totals directly"
+    },
+    {
+      "id": "sales-tax-base-06",
+      "data_point": "WA sales tax exemptions",
+      "value": "Groceries (most food), prescription drugs, medical devices exempt",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2025",
+      "source_name": "WA DOR",
+      "source_url": "https://dor.wa.gov/taxes-rates/sales-use-tax-rates",
+      "retrieved_date": "2026-02-07",
+      "notes": "Important caveat for modeling"
+    },
+    {
+      "id": "sales-tax-base-07",
+      "data_point": "WA 2023 full year taxable retail sales",
+      "value": "$238.4 billion",
+      "numeric_value": 238.4,
+      "unit": "billions_usd",
+      "year": "2023",
+      "source_name": "AWB Institute / WA DOR",
+      "source_url": "https://www.awbinstitute.org/indicator/quarterly-retail-sales/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Full year total"
+    },
+    {
+      "id": "sales-tax-base-08",
+      "data_point": "WA 2024 full year taxable retail sales (estimated)",
+      "value": "$241–$244 billion",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "AWB Institute / WA DOR QBR",
+      "source_url": "https://www.awbinstitute.org/indicator/quarterly-retail-sales/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Preliminary: sum of 4 quarters ~$60-61B each"
+    },
+    {
+      "id": "sales-tax-base-09",
+      "data_point": "WA DOR Quarterly Business Reviews portal",
+      "value": "All quarterly reports with detailed tables",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA DOR",
+      "source_url": "https://dor.wa.gov/about/statistics-reports/business-and-sales-taxes/quarterly-business-reviews",
+      "retrieved_date": "2026-02-07",
+      "notes": "Official source for quarterly and annual totals"
+    },
+    {
+      "id": "sales-tax-base-10",
+      "data_point": "WA DOR interactive QBR report tool",
+      "value": "Searchable database",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA DOR",
+      "source_url": "https://apps.dor.wa.gov/ResearchStats/Content/QuarterlyBusinessReview/Report.aspx",
+      "retrieved_date": "2026-02-07",
+      "notes": "Can generate custom queries"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "category": "healthcare-coverage",
+  "title": "Healthcare Coverage",
+  "description": "Health insurance coverage gaps, uninsured rates, and healthcare costs in Washington",
+  "data": [
+    {
+      "id": "healthcare-coverage-01",
+      "data_point": "WA uninsured rate",
+      "value": "6.5%",
+      "numeric_value": 6.5,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "America's Health Rankings / Census ACS",
+      "source_url": "https://www.americashealthrankings.org/explore/measures/HealthInsurance/WA",
+      "retrieved_date": "2026-02-07",
+      "notes": "Below national avg of 8.2%"
+    },
+    {
+      "id": "healthcare-coverage-02",
+      "data_point": "WA estimated uninsured residents",
+      "value": "~513,500",
+      "numeric_value": 513500,
+      "unit": "count",
+      "year": "2024",
+      "source_name": "America's Health Rankings",
+      "source_url": "https://www.americashealthrankings.org/explore/measures/HealthInsurance/WA",
+      "retrieved_date": "2026-02-07",
+      "notes": "Calculated: 7.9M x 6.5%"
+    },
+    {
+      "id": "healthcare-coverage-03",
+      "data_point": "WA employer-sponsored coverage rate",
+      "value": "49.3%",
+      "numeric_value": 49.3,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "Kaiser Family Foundation",
+      "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/total-population/",
+      "retrieved_date": "2026-02-07"
+    },
+    {
+      "id": "healthcare-coverage-04",
+      "data_point": "WA Medicaid coverage rate",
+      "value": "19.5%",
+      "numeric_value": 19.5,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "Kaiser Family Foundation",
+      "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/total-population/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Apple Health / Medicaid expansion"
+    },
+    {
+      "id": "healthcare-coverage-05",
+      "data_point": "WA Medicare coverage rate",
+      "value": "18.9%",
+      "numeric_value": 18.9,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "Kaiser Family Foundation",
+      "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/total-population/",
+      "retrieved_date": "2026-02-07"
+    },
+    {
+      "id": "healthcare-coverage-06",
+      "data_point": "WA non-group (individual market) coverage rate",
+      "value": "6.7%",
+      "numeric_value": 6.7,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "Kaiser Family Foundation",
+      "source_url": "https://www.kff.org/state-health-policy-data/state-indicator/total-population/",
+      "retrieved_date": "2026-02-07"
+    },
+    {
+      "id": "healthcare-coverage-07",
+      "data_point": "US national uninsured rate (comparison)",
+      "value": "8.2%",
+      "numeric_value": 8.2,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "America's Health Rankings",
+      "source_url": "https://www.americashealthrankings.org/explore/measures/HealthInsurance/WA",
+      "retrieved_date": "2026-02-07",
+      "notes": "WA is below national avg"
+    },
+    {
+      "id": "healthcare-coverage-08",
+      "data_point": "KFF state health data portal",
+      "value": "Full WA health coverage breakdown",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "Kaiser Family Foundation",
+      "source_url": "https://www.kff.org/state-category/health-coverage-uninsured/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Comprehensive source for all coverage types"
+    },
+    {
+      "id": "healthcare-coverage-09",
+      "data_point": "Census uninsured story (post-Medicaid unwinding)",
+      "value": "Uptick in uninsured after pandemic coverage ended",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "US Census Bureau",
+      "source_url": "https://www.census.gov/library/stories/2025/09/uninsured-rates.html",
+      "retrieved_date": "2026-02-07",
+      "notes": "Context for recent trends"
+    }
+  ]
+}

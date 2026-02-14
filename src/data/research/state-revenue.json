@@ -1,0 +1,124 @@
+{
+  "category": "state-revenue",
+  "title": "State Tax Revenue",
+  "description": "Current Washington state revenue by tax type and source",
+  "data": [
+    {
+      "id": "state-revenue-01",
+      "data_point": "WA total General Fund tax revenue (annual)",
+      "value": "$27.13 billion",
+      "numeric_value": 27.13,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "FY2024 total state tax revenue"
+    },
+    {
+      "id": "state-revenue-02",
+      "data_point": "WA sales & use tax revenue",
+      "value": "$13.07 billion",
+      "numeric_value": 13.07,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "48.2% of General Fund tax revenue; state portion only"
+    },
+    {
+      "id": "state-revenue-03",
+      "data_point": "WA B&O tax revenue",
+      "value": "$4.27 billion",
+      "numeric_value": 4.27,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "15.7% of General Fund tax revenue"
+    },
+    {
+      "id": "state-revenue-04",
+      "data_point": "WA state property tax revenue",
+      "value": "$2.71 billion",
+      "numeric_value": 2.71,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "10% of General Fund; state levy only, excludes local"
+    },
+    {
+      "id": "state-revenue-05",
+      "data_point": "WA Real Estate Excise Tax revenue",
+      "value": "$1.12 billion",
+      "numeric_value": 1.12,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07"
+    },
+    {
+      "id": "state-revenue-06",
+      "data_point": "WA Public Utility Tax revenue",
+      "value": "$0.56 billion",
+      "numeric_value": 0.56,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07"
+    },
+    {
+      "id": "state-revenue-07",
+      "data_point": "WA Insurance Premium Tax revenue",
+      "value": "$0.78 billion",
+      "numeric_value": 0.78,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07"
+    },
+    {
+      "id": "state-revenue-08",
+      "data_point": "WA biennial budget revenue (2023-25)",
+      "value": "~$66.5 billion",
+      "numeric_value": 66.5,
+      "unit": "billions_usd",
+      "year": "2023-25",
+      "source_name": "WA OFM / WA State Standard",
+      "source_url": "https://washingtonstatestandard.com/2024/06/26/state-revenues-tumble-nearly-500-million-but-wa-lawmakers-arent-fretting/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Includes federal and non-tax sources"
+    },
+    {
+      "id": "state-revenue-09",
+      "data_point": "WA DOR Tax Statistics 2024 report",
+      "value": "Full statistical report with tables and charts",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "FY2024",
+      "source_name": "WA DOR",
+      "source_url": "https://dor.wa.gov/about/statistics-reports/business-and-sales-taxes/tax-statistics/tax-statistics-2024",
+      "retrieved_date": "2026-02-07",
+      "notes": "Primary source for all revenue breakdowns"
+    },
+    {
+      "id": "state-revenue-10",
+      "data_point": "WA DOR Annual Report FY2024",
+      "value": "Annual report July 2023 - June 2024",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "FY2024",
+      "source_name": "WA DOR",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-01/AnnualReport2024.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "Supplementary source"
+    }
+  ]
+}

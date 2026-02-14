@@ -1,0 +1,115 @@
+{
+  "category": "current-tax-rates",
+  "title": "Current WA Tax Rates",
+  "description": "Washington state and local tax rates including sales, property, and other taxes",
+  "data": [
+    {
+      "id": "current-tax-rates-01",
+      "data_point": "WA state sales tax rate",
+      "value": "6.5%",
+      "numeric_value": 6.5,
+      "unit": "percent",
+      "year": "2025",
+      "source_name": "WA Dept of Revenue",
+      "source_url": "https://dor.wa.gov/taxes-rates/sales-use-tax-rates",
+      "retrieved_date": "2026-02-07",
+      "notes": "Base state rate; local rates add 0.5%-3.9% on top"
+    },
+    {
+      "id": "current-tax-rates-02",
+      "data_point": "WA average combined (state+local) sales tax rate",
+      "value": "~9.47%",
+      "numeric_value": 9.47,
+      "unit": "percent",
+      "year": "2025",
+      "source_name": "National Tax Reports / Tax Foundation",
+      "source_url": "https://nationaltaxreports.com/washington-state-tax-rate/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Max is ~10.35% in Seattle"
+    },
+    {
+      "id": "current-tax-rates-03",
+      "data_point": "WA state property tax avg effective rate",
+      "value": "~0.75% of assessed value",
+      "numeric_value": 0.75,
+      "unit": "percent",
+      "year": "2025",
+      "source_name": "National Tax Reports",
+      "source_url": "https://nationaltaxreports.com/washington-state-tax-rate/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Varies 0.8%-1.2% by county with local levies"
+    },
+    {
+      "id": "current-tax-rates-04",
+      "data_point": "WA capital gains tax rate (tier 1)",
+      "value": "7% on gains up to $1M (after $270K deduction)",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2025",
+      "source_name": "Perkins & Co",
+      "source_url": "https://perkinsaccounting.com/blog/2025-washington-state-tax-changes/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Two-tier system effective Jan 1 2025; deduction inflation-adjusted"
+    },
+    {
+      "id": "current-tax-rates-05",
+      "data_point": "WA capital gains tax rate (tier 2)",
+      "value": "9.9% on gains over $1M",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2025",
+      "source_name": "Perkins & Co",
+      "source_url": "https://perkinsaccounting.com/blog/2025-washington-state-tax-changes/",
+      "retrieved_date": "2026-02-07",
+      "notes": "New tier added in 2025 legislation"
+    },
+    {
+      "id": "current-tax-rates-06",
+      "data_point": "WA B&O tax rate (Service & Other)",
+      "value": "1.5% (<$1M), 1.75% ($1M-$5M), 2.1% (>$5M)",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2025",
+      "source_name": "Stoel Rives LLP",
+      "source_url": "https://www.stoel.com/insights/publications/2025-washington-tax-legislation-wrap-up",
+      "retrieved_date": "2026-02-07",
+      "notes": "Progressive rates effective Oct 1 2025"
+    },
+    {
+      "id": "current-tax-rates-07",
+      "data_point": "WA B&O tax rate (Retailing)",
+      "value": "0.471%",
+      "numeric_value": 0.471,
+      "unit": "percent",
+      "year": "2025",
+      "source_name": "RSM US",
+      "source_url": "https://rsmus.com/insights/tax-alerts/2025/washington-state-enacts-broad-tax-increases.html",
+      "retrieved_date": "2026-02-07",
+      "notes": "Increases to 0.5% on Jan 1 2027"
+    },
+    {
+      "id": "current-tax-rates-08",
+      "data_point": "WA no state income tax",
+      "value": "No broad-based state income tax",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2025",
+      "source_name": "WA Dept of Revenue",
+      "source_url": "https://dor.wa.gov/taxes-rates/sales-use-tax-rates",
+      "retrieved_date": "2026-02-07",
+      "notes": "WA Constitution Article VII; capital gains tax classified as excise tax"
+    },
+    {
+      "id": "current-tax-rates-09",
+      "data_point": "WA sales tax expansion to services",
+      "value": "IT consulting, digital advertising, custom software, staffing, security, data processing",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2025",
+      "source_name": "Delap CPA",
+      "source_url": "https://www.delapcpa.com/state-and-local-tax/2025-washington-state-tax-law-changes/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Effective Oct 1 2025"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "category": "demographics",
+  "title": "Washington Demographics",
+  "description": "Washington state population, household, and economic statistics",
+  "data": [
+    {
+      "id": "demographics-01",
+      "data_point": "WA state population",
+      "value": "7,958,180",
+      "numeric_value": 7958180,
+      "unit": "count",
+      "year": "2024",
+      "source_name": "US Census Bureau QuickFacts",
+      "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+      "retrieved_date": "2026-02-07",
+      "notes": "July 1 2024 estimate"
+    },
+    {
+      "id": "demographics-02",
+      "data_point": "WA state population (projected)",
+      "value": "8,001,020",
+      "numeric_value": 8001020,
+      "unit": "count",
+      "year": "2025",
+      "source_name": "WA Office of Financial Management",
+      "source_url": "https://ofm.wa.gov/wp-content/uploads/sites/default/files/public/dataresearch/pop/april1/ofm_april1_poptrends.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "July 1 2025 projection"
+    },
+    {
+      "id": "demographics-03",
+      "data_point": "WA number of households",
+      "value": "3,064,820",
+      "numeric_value": 3064820,
+      "unit": "count",
+      "year": "2024",
+      "source_name": "US Census Bureau QuickFacts",
+      "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+      "retrieved_date": "2026-02-07",
+      "notes": "2020-2024 ACS estimate"
+    },
+    {
+      "id": "demographics-04",
+      "data_point": "WA median household income",
+      "value": "$98,141",
+      "numeric_value": 98141,
+      "unit": "dollars",
+      "year": "2024",
+      "source_name": "US Census Bureau QuickFacts",
+      "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+      "retrieved_date": "2026-02-07",
+      "notes": "2020-2024, in 2024 dollars"
+    },
+    {
+      "id": "demographics-05",
+      "data_point": "WA median household income (ACS 2023)",
+      "value": "$94,952",
+      "numeric_value": 94952,
+      "unit": "dollars",
+      "year": "2023",
+      "source_name": "Census ACS / washington-demographics.com",
+      "source_url": "https://www.washington-demographics.com/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Inflation-adjusted to 2023"
+    },
+    {
+      "id": "demographics-06",
+      "data_point": "WA poverty rate",
+      "value": "9.2%",
+      "numeric_value": 9.2,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "US Census Bureau QuickFacts",
+      "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+      "retrieved_date": "2026-02-07",
+      "notes": "2020-2024 estimate"
+    },
+    {
+      "id": "demographics-07",
+      "data_point": "WA owner-occupied housing rate",
+      "value": "63.8%",
+      "numeric_value": 63.8,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "US Census Bureau QuickFacts",
+      "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+      "retrieved_date": "2026-02-07",
+      "notes": "2020-2024 estimate"
+    },
+    {
+      "id": "demographics-08",
+      "data_point": "WA median value owner-occupied housing",
+      "value": "$564,600",
+      "numeric_value": 564600,
+      "unit": "dollars",
+      "year": "2024",
+      "source_name": "US Census Bureau QuickFacts",
+      "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+      "retrieved_date": "2026-02-07",
+      "notes": "2020-2024 estimate"
+    },
+    {
+      "id": "demographics-09",
+      "data_point": "WA persons per household",
+      "value": "2.5",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2023",
+      "source_name": "Census Reporter",
+      "source_url": "https://censusreporter.org/profiles/04000US53-washington/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Average household size"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "category": "state-comparisons",
+  "title": "State Comparisons",
+  "description": "Cross-state comparisons of tax regressivity and fiscal policy",
+  "data": [
+    {
+      "id": "state-comparisons-01",
+      "data_point": "Florida ITEP regressivity rank",
+      "value": "#1 most regressive",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP Who Pays Map",
+      "source_url": "https://itep.org/whopays-map-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "No income tax; bottom 20% pay 13.2%, top 1% pay 2.7%"
+    },
+    {
+      "id": "state-comparisons-02",
+      "data_point": "Texas ITEP regressivity rank",
+      "value": "#7 most regressive",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP Who Pays Map",
+      "source_url": "https://itep.org/whopays-map-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "No income tax; bottom 20% pay 13%, top 1% pay 3.1%"
+    },
+    {
+      "id": "state-comparisons-03",
+      "data_point": "Nevada ITEP regressivity rank",
+      "value": "#5 most regressive",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP Who Pays Map",
+      "source_url": "https://itep.org/whopays-map-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "No income tax; bottom 20% pay 13.1%, top 1% pay 2.6%"
+    },
+    {
+      "id": "state-comparisons-04",
+      "data_point": "Oregon ITEP regressivity rank",
+      "value": "#42 (among least regressive)",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP Who Pays Map",
+      "source_url": "https://itep.org/whopays-map-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Progressive income tax, no sales tax; bottom 20% pay 8.2%, top 1% pay 9%"
+    },
+    {
+      "id": "state-comparisons-05",
+      "data_point": "Washington ITEP regressivity rank",
+      "value": "#2 most regressive",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP Who Pays Map",
+      "source_url": "https://itep.org/whopays-map-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Cross-ref: bottom 20% 13.8%, top 1% 4.1%"
+    },
+    {
+      "id": "state-comparisons-06",
+      "data_point": "ITEP Who Pays interactive map (all 50 states)",
+      "value": "State-by-state comparison tool",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP",
+      "source_url": "https://itep.org/whopays-map-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Best source for side-by-side comparisons"
+    },
+    {
+      "id": "state-comparisons-07",
+      "data_point": "ITEP Tax Inequality Index",
+      "value": "Measures whether state taxes increase or decrease inequality",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP",
+      "source_url": "https://itep.org/inequality-index/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Negative = more regressive"
+    },
+    {
+      "id": "state-comparisons-08",
+      "data_point": "ITEP full 50-state report PDF",
+      "value": "Complete distributional analysis",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP",
+      "source_url": "https://media.itep.org/ITEP-Who-Pays-7th-edition.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "Downloadable report with all state data"
+    },
+    {
+      "id": "state-comparisons-09",
+      "data_point": "Tax Foundation State Tax Competitiveness Index",
+      "value": "Business-oriented ranking of state tax systems",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2026",
+      "source_name": "Tax Foundation",
+      "source_url": "https://taxfoundation.org/statetaxindex/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Counterpoint perspective to ITEP"
+    },
+    {
+      "id": "state-comparisons-10",
+      "data_point": "ITEP case for progressive state taxes (charts)",
+      "value": "Visual argument for progressive systems",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP",
+      "source_url": "https://itep.org/the-case-for-more-progressive-state-and-local-tax-systems-in-charts/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Good for intro page visuals/narrative"
+    }
+  ]
+}

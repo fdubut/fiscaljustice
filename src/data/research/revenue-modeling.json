@@ -1,0 +1,103 @@
+{
+  "category": "revenue-modeling",
+  "title": "Revenue Modeling",
+  "description": "Baseline revenue figures and sensitivity analysis for tax policy scenarios",
+  "data": [
+    {
+      "id": "revenue-modeling-01",
+      "data_point": "Baseline: WA state sales tax revenue",
+      "value": "$13.07 billion/year",
+      "numeric_value": 13.07,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "State 6.5% rate on ~$241B taxable sales"
+    },
+    {
+      "id": "revenue-modeling-02",
+      "data_point": "Baseline: WA state property tax revenue",
+      "value": "$2.71 billion/year",
+      "numeric_value": 2.71,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "State levy $2.52/$1K on $833B assessed value"
+    },
+    {
+      "id": "revenue-modeling-03",
+      "data_point": "Baseline: WA state income tax revenue",
+      "value": "$0",
+      "numeric_value": 0,
+      "unit": "dollars",
+      "year": "2025",
+      "source_name": "WA DOR",
+      "source_url": "https://dor.wa.gov/taxes-rates/sales-use-tax-rates",
+      "retrieved_date": "2026-02-07",
+      "notes": "No state income tax; baseline for simulator"
+    },
+    {
+      "id": "revenue-modeling-04",
+      "data_point": "Baseline: WA total General Fund tax revenue",
+      "value": "$27.13 billion/year",
+      "numeric_value": 27.13,
+      "unit": "billions_usd",
+      "year": "FY2024",
+      "source_name": "WA DOR Tax Statistics 2024",
+      "source_url": "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "All state tax sources combined"
+    },
+    {
+      "id": "revenue-modeling-05",
+      "data_point": "Baseline: WA total taxable retail sales",
+      "value": "$241–$244 billion/year",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "WA DOR / AWB Institute",
+      "source_url": "https://www.awbinstitute.org/indicator/quarterly-retail-sales/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Sum of 4 quarters; used for sales tax modeling"
+    },
+    {
+      "id": "revenue-modeling-06",
+      "data_point": "Baseline: WA total assessed property value",
+      "value": "$833 billion",
+      "numeric_value": 833,
+      "unit": "billions_usd",
+      "year": "2024",
+      "source_name": "WA DOR Property Tax Stats",
+      "source_url": "https://dor.wa.gov/about/statistics-reports/property-tax-statistics/property-tax-statistics-2024",
+      "retrieved_date": "2026-02-07",
+      "notes": "Used for property tax modeling"
+    },
+    {
+      "id": "revenue-modeling-07",
+      "data_point": "Simulator target: universal healthcare net new funding",
+      "value": "$58–$65B total minus current public spending",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2025",
+      "source_name": "WA HCA UHCC Reports",
+      "source_url": "https://www.hca.wa.gov/assets/program/universal-health-care-commission-annual-leg-report-2025.pdf",
+      "retrieved_date": "2026-02-07",
+      "notes": "Replaces all current spending; new taxes replace premiums"
+    },
+    {
+      "id": "revenue-modeling-08",
+      "data_point": "Simulator target: universal childcare cost",
+      "value": "~$7.25 billion/year (full enrollment estimate)",
+      "numeric_value": 7.25,
+      "unit": "billions_usd",
+      "year": "2024",
+      "source_name": "Derived estimate",
+      "source_url": "https://www.americanprogress.org/data-view/early-learning-in-the-united-states/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Current state spending ~$1.1B via Fair Start; gap ~$6B+"
+    }
+  ]
+}

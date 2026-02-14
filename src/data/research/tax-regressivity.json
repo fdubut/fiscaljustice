@@ -1,0 +1,127 @@
+{
+  "category": "tax-regressivity",
+  "title": "Tax System Regressivity",
+  "description": "ITEP regressivity analysis and effective tax rates by income bracket in Washington",
+  "data": [
+    {
+      "id": "tax-regressivity-01",
+      "data_point": "ITEP Who Pays ranking for WA",
+      "value": "2nd most regressive state (behind Florida)",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP Who Pays 7th Edition",
+      "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Improved from #1 due to capital gains tax and Working Families Tax Credit"
+    },
+    {
+      "id": "tax-regressivity-02",
+      "data_point": "Effective tax rate - lowest 20% (income <$33,500)",
+      "value": "13.8%",
+      "numeric_value": 13.8,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "ITEP Who Pays 7th Edition",
+      "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Avg income $18,600; down from 17.8% in prior edition"
+    },
+    {
+      "id": "tax-regressivity-03",
+      "data_point": "Effective tax rate - second 20% ($33,500-$61,800)",
+      "value": "10.9%",
+      "numeric_value": 10.9,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "ITEP Who Pays 7th Edition",
+      "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Avg income $47,400"
+    },
+    {
+      "id": "tax-regressivity-04",
+      "data_point": "Effective tax rate - middle 20% ($61,800-$107,700)",
+      "value": "10.9%",
+      "numeric_value": 10.9,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "ITEP Who Pays 7th Edition",
+      "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Avg income $82,400"
+    },
+    {
+      "id": "tax-regressivity-05",
+      "data_point": "Effective tax rate - fourth 20% ($107,700-$162,900)",
+      "value": "9.4%",
+      "numeric_value": 9.4,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "ITEP Who Pays 7th Edition",
+      "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Avg income $132,800"
+    },
+    {
+      "id": "tax-regressivity-06",
+      "data_point": "Effective tax rate - next 15% ($162,900-$372,900)",
+      "value": "8.0%",
+      "numeric_value": 8,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "ITEP Who Pays 7th Edition",
+      "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Avg income $235,600"
+    },
+    {
+      "id": "tax-regressivity-07",
+      "data_point": "Effective tax rate - next 4% ($372,900-$878,400)",
+      "value": "5.4%",
+      "numeric_value": 5.4,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "ITEP Who Pays 7th Edition",
+      "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Avg income $537,800"
+    },
+    {
+      "id": "tax-regressivity-08",
+      "data_point": "Effective tax rate - top 1% (>$878,400)",
+      "value": "4.1%",
+      "numeric_value": 4.1,
+      "unit": "percent",
+      "year": "2024",
+      "source_name": "ITEP Who Pays 7th Edition",
+      "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Avg income $2,077,500; up from 3% pre-capital gains tax"
+    },
+    {
+      "id": "tax-regressivity-09",
+      "data_point": "Regressivity ratio (bottom 20% vs top 1%)",
+      "value": "3.4x (13.8% / 4.1%)",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP Who Pays 7th Edition",
+      "source_url": "https://itep.org/washington-who-pays-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Lowest earners pay 3.4x the effective rate of top 1%"
+    },
+    {
+      "id": "tax-regressivity-10",
+      "data_point": "ITEP Who Pays national report URL",
+      "value": "Full 50-state comparison",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2024",
+      "source_name": "ITEP Who Pays 7th Edition",
+      "source_url": "https://itep.org/whopays-7th-edition/",
+      "retrieved_date": "2026-02-07",
+      "notes": "Main report with methodology and all state rankings"
+    }
+  ]
+}

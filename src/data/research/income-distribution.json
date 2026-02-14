@@ -1,0 +1,67 @@
+{
+  "category": "income-distribution",
+  "title": "Income Distribution",
+  "description": "IRS and ITEP income data by bracket and percentile for Washington state",
+  "data": [
+    {
+      "id": "income-distribution-01",
+      "data_point": "IRS SOI state data (returns by AGI bracket)",
+      "value": "Excel files with # returns and total AGI by bracket for WA",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2022-2023",
+      "source_name": "IRS Statistics of Income",
+      "source_url": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-state-data",
+      "retrieved_date": "2026-02-07",
+      "notes": "Download Excel for WA; brackets: $1-$10K, $10K-$20K, etc."
+    },
+    {
+      "id": "income-distribution-02",
+      "data_point": "IRS SOI AGI percentile data by state",
+      "value": "Top 1%, 5%, 10%, 25%, 50% thresholds for WA",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2022-2023",
+      "source_name": "IRS Statistics of Income",
+      "source_url": "https://www.irs.gov/statistics/soi-tax-stats-adjusted-gross-income-agi-percentile-data-by-state",
+      "retrieved_date": "2026-02-07",
+      "notes": "Key for progressive bracket modeling"
+    },
+    {
+      "id": "income-distribution-03",
+      "data_point": "IRS SOI statistical tables by size of AGI",
+      "value": "Detailed breakdown tables",
+      "numeric_value": null,
+      "unit": "text",
+      "year": "2022-2023",
+      "source_name": "IRS Statistics of Income",
+      "source_url": "https://www.irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-size-of-adjusted-gross-income",
+      "retrieved_date": "2026-02-07",
+      "notes": "Most granular source"
+    },
+    {
+      "id": "income-distribution-04",
+      "data_point": "WA mean AGI (FRED)",
+      "value": "$114,000",
+      "numeric_value": 114000,
+      "unit": "dollars",
+      "year": "2022",
+      "source_name": "Federal Reserve FRED",
+      "source_url": "https://fred.stlouisfed.org/series/MEANAGIWA53A052NCEN",
+      "retrieved_date": "2026-02-07",
+      "notes": "Mean AGI for WA filers"
+    },
+    {
+      "id": "income-distribution-05",
+      "data_point": "WA median household income",
+      "value": "$98,141",
+      "numeric_value": 98141,
+      "unit": "dollars",
+      "year": "2024",
+      "source_name": "US Census Bureau QuickFacts",
+      "source_url": "https://www.census.gov/quickfacts/fact/table/WA/RHI825224",
+      "retrieved_date": "2026-02-07",
+      "notes": "Cross-ref from res-4a"
+    }
+  ]
+}
