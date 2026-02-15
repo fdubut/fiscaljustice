@@ -28,6 +28,18 @@ export const WA_CURRENT_RATES = {
   /** WA currently has no wealth tax (0%). WA DOR Wealth Tax Study published Nov 2024. */
   wealthTaxRate: 0,
   wealthTaxThreshold: 250_000_000,
+
+  /**
+   * B&O tax average effective rate — WA DOR Tax Statistics 2024
+   * Multiple industry tiers (0.138%–3.3%); weighted average ~0.471% on gross business income.
+   */
+  boTaxRate: 0.471,
+
+  /**
+   * REET average effective rate — WA DOR Tax Statistics 2024
+   * Tiered 1.1%–3% on real estate sale price; average effective rate ~1.1%.
+   */
+  reetRate: 1.1,
 };
 
 /** Tax bases for revenue modeling */
@@ -59,15 +71,48 @@ export const WA_TAX_BASES = {
    * WA GDP $785B / US GDP $25.5T — BEA State GDP 2024.
    */
   totalHouseholdWealthBillions: 5_250,
+
+  /**
+   * Total gross business income subject to B&O tax (~$1,160B).
+   * WA DOR Tax Statistics 2024 — sum of all B&O-taxable gross receipts.
+   */
+  totalGrossBusinessIncomeBillions: 1_160,
+
+  /**
+   * Total real estate transaction volume (~$131B).
+   * WA DOR Tax Statistics 2024 — total taxable selling price for REET.
+   */
+  totalRealEstateTransactionsBillions: 131,
 };
 
-/** Current annual revenue from each source (FY2024, $B) — WA DOR Tax Statistics 2024 */
+/**
+ * Current annual revenue by source (FY2024, $B) — ordered by amount.
+ * Tax revenue: WA DOR Tax Statistics 2024.
+ * Federal transfers: derived from OFM 2025-27 budget ($150.4B all funds − $77.9B NGF-O,
+ *   federal portion ~$36B/biennium). Also cross-referenced with USAspending.gov WA profile.
+ */
 export const WA_CURRENT_REVENUE = {
+  /** Federal funds flowing through state operating budget (Medicaid FMAP, education grants, etc.) */
+  federalTransfersBillions: 18.0,
   salesTaxRevenueBillions: 13.07,
+  /** B&O gross receipts tax — WA DOR Tax Statistics 2024 */
+  boTaxRevenueBillions: 5.47,
   propertyTaxRevenueBillions: 2.71,
-  incomeTaxRevenueBillions: 0,
+  /** Real Estate Excise Tax — WA DOR Tax Statistics 2024 */
+  reetRevenueBillions: 1.44,
+  /** Insurance Premium Tax — WA DOR Tax Statistics 2024 */
+  insurancePremiumTaxRevenueBillions: 1.13,
   /** WA DOR News Release: $560.6M initial collections for TY2024 */
   capitalGainsTaxRevenueBillions: 0.561,
+  /** Public Utility Tax — WA DOR Tax Statistics 2024 */
+  publicUtilityTaxRevenueBillions: 0.44,
+  /** Liquor Tax — WA DOR Tax Statistics 2024 */
+  liquorTaxRevenueBillions: 0.43,
+  /** Tobacco Tax — WA DOR Tax Statistics 2024 */
+  tobaccoTaxRevenueBillions: 0.34,
+  /** Use tax, leasehold excise, and other minor taxes — WA DOR Tax Statistics 2024 */
+  otherTaxRevenueBillions: 1.54,
+  incomeTaxRevenueBillions: 0,
   /** WA currently has no wealth tax */
   wealthTaxRevenueBillions: 0,
 };
@@ -78,10 +123,36 @@ export const WA_CURRENT_REVENUE = {
  *   $3.7B annual shortfall (~$1B special ed, $695M classified staff, $350M MSOC, remainder
  *   transportation & other gaps). Source: WA State Standard / OSPI (Sep 2024).
  * Childcare: ~505K children under 6 × $14,355 avg (Census + Center for American Progress).
+ * Universal healthcare total: UHCC 2025 report / WA HCA Cost Transparency Board — ~$70B
+ *   total annual health expenditure (all payers, 2024 est). Net new state revenue needed
+ *   ~$10-15B after redirecting existing public spending (~$35B Medicaid/Medicare/state) and
+ *   replacing private premiums/out-of-pocket (~$35B).
+ * Affordable housing: WA Dept of Commerce / WLIHA — state needs ~$2B/yr additional
+ *   investment to close the 80K-140K unit shortage (5th worst nationally).
  */
 export const WA_PROGRAM_COSTS = {
-  fullyFundK12Billions: 3.7,
+  universalHealthcareTotalBillions: 70.0,
+  universalHealthcareNetNewBillions: 12.5,
   universalChildcareBillions: 7.25,
+  fullyFundK12Billions: 3.7,
+  affordableHousingBillions: 2.0,
+};
+
+/**
+ * Current state operating spending by category ($B/yr).
+ * Annualized from the 2025-27 enacted biennial budget (NGF-O $77.9B / 2).
+ * Ordered by amount (largest first).
+ * Source: WA OFM 2025-27 Enacted Budget, WA Legislative Budget Notes 2025.
+ */
+export const WA_CURRENT_SPENDING = {
+  k12EducationBillions: 16.8,
+  humanServicesBillions: 14.1,
+  healthcareBillions: 6.1,
+  higherEducationBillions: 3.5,
+  publicSafetyBillions: 3.0,
+  otherBillions: 2.0,
+  generalGovernmentBillions: 1.5,
+  naturalResourcesBillions: 1.2,
 };
 
 /**
@@ -261,5 +332,37 @@ export const DATA_SOURCES = {
   assessedValue: {
     label: "WA DOR Property Tax Statistics 2024",
     url: "https://dor.wa.gov/about/statistics-reports/property-tax-statistics/property-tax-statistics-2024",
+  },
+  boTax: {
+    label: "WA DOR Tax Statistics 2024 — B&O Tax",
+    url: "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+  },
+  reet: {
+    label: "WA DOR Tax Statistics 2024 — Real Estate Excise Tax",
+    url: "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+  },
+  otherTaxes: {
+    label: "WA DOR Tax Statistics 2024",
+    url: "https://dor.wa.gov/sites/default/files/2025-10/Tax_Statistics_2024.pdf",
+  },
+  federalTransfers: {
+    label: "WA OFM 2025-27 Enacted Budget / USAspending.gov",
+    url: "https://ofm.wa.gov/budget/state-budget-2025-27/enacted/",
+  },
+  stateBudget: {
+    label: "WA OFM 2025-27 Enacted Budget",
+    url: "https://ofm.wa.gov/budget/state-budget-2025-27/enacted/",
+  },
+  universalHealthcare: {
+    label: "WA HCA Universal Health Care Commission 2025 Report",
+    url: "https://www.hca.wa.gov/assets/program/universal-health-care-commission-annual-leg-report-2025.pdf",
+  },
+  healthcareSpending: {
+    label: "WA HCA Cost Transparency Board 2024",
+    url: "https://www.hca.wa.gov/assets/program/cost-board-2024-leg-report.pdf",
+  },
+  affordableHousing: {
+    label: "WA Dept of Commerce Housing Reports",
+    url: "https://www.commerce.wa.gov/housing-policy/housing-reports/",
   },
 };

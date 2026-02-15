@@ -38,10 +38,12 @@ export default function Introduction() {
 
         <p className="text-lg leading-relaxed mb-4">
           This site provides a <strong>tax simulator</strong> that lets you
-          explore what happens when you adjust income tax, sales tax, and property
-          tax rates. You can see how much revenue Washington would gain or lose,
-          and how close we&apos;d get to funding universal healthcare and
-          universal childcare for all Washingtonians.
+          explore what happens when you adjust tax rates across all major revenue
+          sources — income tax, sales tax, property tax, B&amp;O tax, real estate
+          excise tax, capital gains, and more. You can see Washington&apos;s
+          complete revenue picture, including federal transfers, and how close
+          we&apos;d get to funding universal healthcare, universal childcare,
+          fully funding K-12 education, and closing the affordable housing gap.
         </p>
 
         <div className="mt-8 p-5 bg-accent-50 border-l-4 border-accent-500 rounded-lg shadow-sm">
